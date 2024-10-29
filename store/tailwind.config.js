@@ -36,6 +36,9 @@ module.exports = {
       "red": "#DF341D",
       "pine-green": "#2B9888"
     },
+    fontFamily: {
+      'main-font': ["Gill Sans",'sans-serif']
+    },
     extend: {},
   },
   plugins: [],

@@ -1,6 +1,6 @@
-<div class="w-full bg-green-dark flex justify-center">
+<div class="w-full bg-green-light flex justify-center">
     <div class="w-14 h-14 flex justify-center bg-green-dark xs:h-16 xs:w-16 lg:hidden">
-        <button class="flex items-center cursor-pointer lg:hidden">
+        <button class="flex items-center cursor-pointer lg:hidden" (click)="toggleNavber()">
             <svg class="h-[21px] fill-font-additional-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512">
                 <path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/>
             </svg>
@@ -9,5 +9,5 @@
             </svg>
         </button>
     </div>
-    <app-menu-navbar class="hidden justify-center lg:flex w-full flex-grow"></app-menu-navbar>
+    <app-menu-navbar [ngClass]="showNavbar ? 'left-0' : '-left-full'" class="absolute top-0 h-full w-full lg:justify-center lg:static lg:flex lg:flex-grow lg:bg-green-dark"></app-menu-navbar>
 </div>

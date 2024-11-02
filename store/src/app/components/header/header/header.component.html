@@ -15,6 +15,6 @@
     <app-header-search class="hidden order-1 lg:block "></app-header-search>
     </div>
 </div>
-<div  [ngClass]="searchToggle ? 'flex' : 'hidden'" class="w-full flex items-center justify-center bg-green-dark h-20 absolute left-0 lg:hidden">
-    <app-header-search></app-header-search>
-</div>
+
+<app-header-search [ngClass]="searchToggle ? 'flex' : 'hidden'" class="w-full absolute left-0 px-6 items-center justify-center bg-green-dark h-20 flex-grow lg:hidden"></app-header-search>
+

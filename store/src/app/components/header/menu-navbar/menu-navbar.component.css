@@ -3,3 +3,11 @@ div.resetFlowbiteStyles {
     transform: none !important;
     margin-left: 16px !important; 
 }
+
+@media (min-width: 1024px) {
+    div.resetFlowbiteStyles {
+        position: absolute !important;
+        margin: 0 !important; 
+        inset: auto 0px auto 0px !important;
+    }
+}

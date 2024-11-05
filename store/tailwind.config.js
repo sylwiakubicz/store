@@ -33,6 +33,7 @@ module.exports = {
       "green-normal": "#94B447",
       "green-dark": "#83A13B",
       "green-darker": "#698929",
+      "green-hover":"#628025",
       "orange": "#EE643A",
       "blue": "#345EA8",
       "red": "#DF341D",

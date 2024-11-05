@@ -1,0 +1,5 @@
+div.resetFlowbiteStyles {
+    position: static !important;
+    transform: none !important;
+    margin-left: 16px !important; 
+}

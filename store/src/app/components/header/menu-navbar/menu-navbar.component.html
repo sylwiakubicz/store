@@ -15,17 +15,40 @@
             </a>
 
             <!-- TODO zrobić JSON z tymi zakładkami i tak je renderować -->
-            <div id="dropdown" class="hidden resetFlowbiteStyles lg:bg-green-darker text-left lg:text-sm lg:text-nowrap lg:absolute lg:right-4 w-[13.75rem]">
+            <div id="dropdown" class="hidden resetFlowbiteStyles lg:bg-green-darker text-left lg:text-sm lg:text-nowrap lg:absolute lg:right-4 lg:w-[13.75rem]">
                 <li class="mb-3 -mt-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Gift Cards</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Discounted products</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Pre-orders</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Crowdfunding</a></li>
-                <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 lg:flex lg:justify-between lg:items-center">
-                    <a>Board and card games</a>
-                    <!-- TODO zmienić > na v na małym ekranie -->
-                    <app-dropdown-arrow [rightArrow]="true"></app-dropdown-arrow>
+                <li class="flex flex-col relative">
+                    <button id="dropdown1" data-dropdown-toggle="dropdownSubMenu1" data-dropdown-trigger="hover" data-dropdown-placement="left-start" data-dropdwon-offset-distance="-50px" class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 lg:flex lg:justify-between lg:items-center">
+                        <a>Board and card games</a>
+                        <!-- TODO zmienić > na v na małym ekranie -->
+                        <app-dropdown-arrow [rightArrow]="true"></app-dropdown-arrow>
+                    </button>
+
+                    <div id="dropdownSubMenu1" class="hidden resetFlowbiteStylesSubMenu text-left lg:bg-red lg:text-sm lg:text-nowrap lg:absolute lg:w-[13.75rem]">
+                        <li class="mb-3 -mt-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Gift Cards</a></li>
+                        <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Discounted products</a></li>
+                        <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Pre-orders</a></li>
+                        <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Crowdfunding</a></li>
+                    </div>
+
                 </li>
-                <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Minature wargaming</a></li>
+                <li class="flex flex-col relative">
+                    <button id="dropdown2" data-dropdown-toggle="dropdownSubMenu2" data-dropdown-trigger="hover" data-dropdown-placement="left-start" data-dropdwon-offset-distance="-50px" class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 lg:flex lg:justify-between lg:items-center">
+                        <a>Minature wargaming</a>
+                        <app-dropdown-arrow [rightArrow]="true"></app-dropdown-arrow>
+                    </button>
+
+                    <div id="dropdownSubMenu2" class="hidden resetFlowbiteStylesSubMenu text-left lg:bg-red lg:text-sm lg:text-nowrap lg:absolute lg:w-[13.75rem]">
+                        <li class="mb-3 -mt-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Gift Cards</a></li>
+                        <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Discounted products</a></li>
+                        <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Pre-orders</a></li>
+                        <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Crowdfunding</a></li>
+                    </div>
+
+                </li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Collectible Games</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>For children</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>RPG</a></li>

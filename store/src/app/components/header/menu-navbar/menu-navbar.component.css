@@ -4,10 +4,23 @@ div.resetFlowbiteStyles {
     margin-left: 16px !important; 
 }
 
+div.resetFlowbiteStylesSubMenu {
+    position: static !important;
+    margin-left: 16px !important; 
+    transform: none !important;
+
+}
+
 @media (min-width: 1024px) {
     div.resetFlowbiteStyles {
         position: absolute !important;
         margin: 0 !important; 
         inset: auto 0px auto 0px !important;
+    }
+
+    div.resetFlowbiteStylesSubMenu {
+        position: absolute !important;
+        margin: 0 !important;
+        inset: 0px auto  auto 100%  !important;
     }
 }

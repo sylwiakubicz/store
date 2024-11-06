@@ -22,7 +22,6 @@ export class MenuNavbarComponent {
     this.breakpointObserver.observe(['(min-width: 1024px)'])
       .subscribe(result => {
         this.isScreenLarge = result.matches;
-        console.log(this.isScreenLarge)
         this.updateDropdownTriggers();
       });
   }

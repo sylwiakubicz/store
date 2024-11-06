@@ -4,7 +4,7 @@
 
     <!-- TODO depends on screen width show dropdown menu on hover or on click -->
     <ul class="flex items-start flex-col lg:items-center lg:flex-row lg:h-full">
-        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" data-dropdown-trigger="hover" class="lg:h-full w-full relative">
+        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" data-dropdown-trigger="hover" class="lg:h-full w-full relative dropDownButton">
             <a class="relative flex w-full items-center mb-6 
                 lg:mb-0 lg:h-full lg:font-bold lg:bg-green-darker lg:pl-16 lg:pr-8 lg:w-44 lg:justify-end">
                 <svg class="hidden absolute h-8 fill-font-additional-color-light left-8 lg:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -15,15 +15,15 @@
             </a>
 
             <!-- TODO zrobić JSON z tymi zakładkami i tak je renderować -->
+            <!-- TODO różne wartości atrybutów w zależnosci od screen size -->
             <div id="dropdown" class="hidden resetFlowbiteStyles lg:bg-green-darker text-left lg:text-sm lg:text-nowrap lg:absolute lg:right-4 lg:w-[13.75rem]">
                 <li class="mb-3 -mt-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Gift Cards</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Discounted products</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Pre-orders</a></li>
                 <li class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0"><a>Crowdfunding</a></li>
                 <li class="flex flex-col relative">
-                    <button id="dropdown1" data-dropdown-toggle="dropdownSubMenu1" data-dropdown-trigger="hover"  class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center">
+                    <button id="dropdown1" data-dropdown-toggle="dropdownSubMenu1" data-dropdown-trigger="hover"  class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center dropDownButton">
                         <a>Board and card games</a>
-                        <!-- TODO zmienić > na v na małym ekranie -->
                         <app-dropdown-arrow [rightArrow]="true"></app-dropdown-arrow>
                     </button>
 
@@ -36,7 +36,7 @@
 
                 </li>
                 <li class="flex flex-col relative">
-                    <button id="dropdown2" data-dropdown-toggle="dropdownSubMenu2" data-dropdown-trigger="hover" class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center">
+                    <button id="dropdown2" data-dropdown-toggle="dropdownSubMenu2" data-dropdown-trigger="hover" class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center dropDownButton">
                         <a>Minature wargaming</a>
                         <app-dropdown-arrow [rightArrow]="true"></app-dropdown-arrow>
                     </button>

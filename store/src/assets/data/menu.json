@@ -1,0 +1,108 @@
+{
+    "menu": [
+        {"name": "Products", "sub-menu": [
+            {"name": "Gift cards", "sub-menu": null},
+            {"name": "Discounted products", "sub-menu": null},
+            {"name": "Pre-orders", "sub-menu": null},
+            {"name": "Crowdfunding", "sub-menu": null},
+            {"name": "Board and card games", "sub-menu": [
+                {"name": "Game expansions", "sub-menu": null},
+                {"name": "Escape room", "sub-menu": null},
+                {"name": "For Adults", "sub-menu": null},
+                {"name": "Cooperative Games", "sub-menu": null},
+                {"name": "Card games", "sub-menu": null},
+                {"name": "Dice games", "sub-menu": null},
+                {"name": "Logic games", "sub-menu": null},
+                {"name": "Adventure games", "sub-menu": null},
+                {"name": "Family games", "sub-menu": null},
+                {"name": "Strategic", "sub-menu": null},
+                {"name": "War games", "sub-menu": null},
+                {"name": "Sport games", "sub-menu": null},
+                {"name": "Chess", "sub-menu": null}
+            ]},
+            {"name": "Minature wargaming", "sub-menu": [
+                {"name": "Warhammer: The Old World", "sub-menu": null},
+                {"name": "Age of Sigmar", "sub-menu": null},
+                {"name": "World of Tanks", "sub-menu": null},
+                {"name": "Star Wars: Legion", "sub-menu": null},
+                {"name": "Star Wars: Shatterpoint", "sub-menu": null},
+                {"name": "Warhamer Warcry", "sub-menu": null},
+                {"name": "Marvel: Crisis Protocol", "sub-menu": null},
+                {"name": "Warhamer 40,000", "sub-menu": null}
+            ]},
+            {"name": "Collectible games", "sub-menu": [
+                {"name": "Dragon Ball Super Card Game", "sub-menu": null},
+                {"name": "Marvel Champions", "sub-menu": null},
+                {"name": "Legend of the Five Rings", "sub-menu": null},
+                {"name": "Pokemon TCG", "sub-menu": null},
+                {"name": "Star Wars: Unlimited", "sub-menu": null},
+                {"name": "War Tanks", "sub-menu": null},
+                {"name": "Carcassonne", "sub-menu": null},
+                {"name": "Warhamer Underworlds", "sub-menu": null}
+            ]},
+            {"name": "For children", "sub-menu": [
+                {"name": "Books", "sub-menu": null},
+                {"name": "Smart Games", "sub-menu": null},
+                {"name": "Wilga Play", "sub-menu": null}
+            ]},
+            {"name": "RPG", "sub-menu": [
+                {"name": "Warhamer", "sub-menu": null},
+                {"name": "Dungeon & Dragons", "sub-menu": null},
+                {"name": "Gamebooks and comics", "sub-menu": null},
+                {"name": "Call of Cthulhu RPG", "sub-menu": null},
+                {"name": "Shadowrun", "sub-menu": null},
+                {"name": "Star Wars", "sub-menu": null}
+            ]},
+            {"name": "Accessories", "sub-menu": [
+                {"name": "Stickers", "sub-menu": null},
+                {"name": "Card sleeves", "sub-menu": null},
+                {"name": "Deck boxes", "sub-menu": null},
+                {"name": "Dice", "sub-menu": null},
+                {"name": "Organizers", "sub-menu": null},
+                {"name": "Game mats", "sub-menu": null},
+                {"name": "Farbic bags", "sub-menu": null},
+                {"name": "Other", "sub-menu": null}
+            ]},
+            {"name": "Game Components", "sub-menu": [
+                {"name": "3D Printed", "sub-menu": null},
+                {"name": "Cubes", "sub-menu": null},
+                {"name": "Money & Coins", "sub-menu": null},
+                {"name": "Sets of components", "sub-menu": null},
+                {"name": "Catan", "sub-menu": null},
+                {"name": "Agricola", "sub-menu": null},
+                {"name": "Carcassonne", "sub-menu": null},
+                {"name": "Other", "sub-menu": null}
+            ]},
+            {"name": "Jigsaw puzzles", "sub-menu": [
+                {"name": "Accessories", "sub-menu": null},
+                {"name": "Wooden", "sub-menu": null},
+                {"name": "Exit puzzle", "sub-menu": null},
+                {"name": "Unusual", "sub-menu": null},
+                {"name": "Art", "sub-menu": null}
+            ]},
+            {"name": "Funko Pop", "sub-menu": [
+                {"name": "Funko Pop - Pokemon", "sub-menu": null},
+                {"name": "Funko Pop - Games", "sub-menu": null},
+                {"name": "Funko Pop - Marvel", "sub-menu": null},
+                {"name": "Funko Pop - Harry Potter", "sub-menu": null},
+                {"name": "Funko Pop - Disney", "sub-menu": null},
+                {"name": "Funko Pop - Star Wars", "sub-menu": null},
+                {"name": "Funko Pop - Fortnite", "sub-menu": null},
+                {"name": "Funko Pop - Sport", "sub-menu": null}
+            ]},
+            {"name": "Clothes and accessories", "sub-menu": [
+                {"name": "T-shirt", "sub-menu": null},
+                {"name": "Socks", "sub-menu": null},
+                {"name": "Bags", "sub-menu": null},
+                {"name": "Keychains", "sub-menu": null},
+                {"name": "Mugs", "sub-menu": null},
+                {"name": "Plushes & figures", "sub-menu": null}
+            ]},
+            {"name": "Books & magazines", "sub-menu": null}
+        ]},
+        {"name": "New Products", "sub-menu": null},
+        {"name": "Products on sale", "sub-menu": null},
+        {"name": "Pre-orders", "sub-menu": null}
+    ]
+}
+

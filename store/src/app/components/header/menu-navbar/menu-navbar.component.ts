@@ -18,20 +18,23 @@ export class MenuNavbarComponent {
   subMenuTabs: any = (menu as any).default;
 
   handleDropdownMenu() {
-    const dropdownMenu = document.querySelector("li > div");
-    if (dropdownMenu?.classList.contains("hidden")) {
-      dropdownMenu.classList.remove("hidden")
-    } else {
-      dropdownMenu?.classList.add("hidden")
-    }
+    if (innerWidth < 1024) {
+      const dropdownMenu = document.querySelector("li > div");
+      if (dropdownMenu?.classList.contains("hidden")) {
+        dropdownMenu.classList.remove("hidden")
+      } else {
+        dropdownMenu?.classList.add("hidden")
+      }
+    } 
   }
 
   handleDropdownSubMenu(id : string) {
-    console.log(id)
-    const dropdownMenu = document.querySelectorAll("li > div");
-    dropdownMenu.forEach(dropdown => dropdown.id === id 
-      ? (dropdown.classList.contains("hidden") ? dropdown.classList.remove("hidden") : dropdown.classList.add("hidden"))
-      : dropdown.classList.add("hidden"))
+    if (innerWidth < 1024) {
+      const dropdownMenu = document.querySelectorAll("li > div");
+      dropdownMenu.forEach(dropdown => dropdown.id === id 
+        ? (dropdown.classList.contains("hidden") ? dropdown.classList.remove("hidden") : dropdown.classList.add("hidden"))
+        : dropdown.classList.add("hidden"))
+    }
   }
 }
 

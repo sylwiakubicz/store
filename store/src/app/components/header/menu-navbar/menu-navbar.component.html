@@ -3,7 +3,7 @@
             xl:text-base 2xl:h-16 2xl:w-[1400px]">
 
     <ul class="flex items-start flex-col lg:items-center lg:flex-row lg:h-full">
-        <li class="lg:h-full w-full relative group/mainMenu">
+        <li (click)="handleDropdownMenu()" class="lg:h-full w-full relative group/mainMenu">
             <a class="relative flex w-full items-center mb-6 
                 lg:mb-0 lg:h-full lg:font-bold lg:bg-green-darker lg:pl-16 lg:pr-8 lg:w-44 lg:justify-end">
                 <svg class="hidden absolute h-8 fill-font-additional-color-light left-8 lg:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
@@ -14,13 +14,13 @@
             </a>
 
             <div class="hidden lg:group-hover/mainMenu:block ml-4 text-base lg:ml-0 lg:bg-green-darker text-left lg:text-nowrap lg:absolute lg:w-[13.75rem]">
-                <li *ngFor="let tab of subMenuTabs.subMenu; index as i" class="group/subMenu z-10 flex flex-col relative first-of-type:-mt-3 lg:first-of-type:mt-0">
+                <li (click)="handleDropdownSubMenu(tab.name)" *ngFor="let tab of subMenuTabs.subMenu" class="group/subMenu flex flex-col relative first-of-type:-mt-3 lg:first-of-type:mt-0">
                     <button class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center">
                         <a>{{tab.name}}</a>
                         <app-dropdown-arrow *ngIf="tab.subMenu" [rightArrow]="true"></app-dropdown-arrow>
                     </button>
 
-                    <div *ngIf="tab.subMenu" class="hidden lg:group-hover/subMenu:block ml-8 text-left lg:bg-green-hover lg:text-base lg:text-nowrap lg:absolute lg:w-[13.75rem] lg:left-full lg:top-0 lg:ml-0">
+                    <div *ngIf="tab.subMenu" [id]="tab.name" class="hidden lg:group-hover/subMenu:block ml-8 text-left lg:bg-green-hover lg:text-base lg:text-nowrap lg:absolute lg:w-[13.75rem] lg:left-full lg:top-0 lg:ml-0">
                         <li *ngFor="let subTab of tab.subMenu" class="first-of-type:lg:pt-3.5 lg:hover:bg-green-hover lg:px-5 pb-3.5 lg:mb-0 lg:mt-0">
                             <a>{{subTab.name}}</a>
                         </li>

@@ -13,9 +13,9 @@ import { NgFor, NgIf, NgClass } from '@angular/common';
     NgClass
   ],
   templateUrl: './menu-navbar.component.html',
-  styleUrl: `./menu-navbar.component.css`
 })
 export class MenuNavbarComponent {
   subMenuTabs: any = (menu as any).default;
+
 }
 

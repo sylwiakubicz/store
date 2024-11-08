@@ -20,7 +20,7 @@
                         <app-dropdown-arrow *ngIf="tab.subMenu" [rightArrow]="true"></app-dropdown-arrow>
                     </button>
 
-                    <div *ngIf="tab.subMenu" [id]="tab.name" class="hidden lg:group-hover/subMenu:block ml-8 text-left lg:bg-green-hover lg:text-base lg:text-nowrap lg:absolute lg:w-[13.75rem] lg:left-full lg:top-0 lg:ml-0">
+                    <div *ngIf="tab.subMenu" [id]="tab.name" class="hidden lg:group-hover/subMenu:block ml-8 text-left lg:bg-green-hover lg:text-base lg:text-nowrap lg:absolute lg:w-fit lg:left-full lg:top-0 lg:ml-0">
                         <li *ngFor="let subTab of tab.subMenu" class="first-of-type:lg:pt-3.5 lg:hover:bg-green-hover lg:px-5 pb-3.5 lg:mb-0 lg:mt-0">
                             <a>{{subTab.name}}</a>
                         </li>

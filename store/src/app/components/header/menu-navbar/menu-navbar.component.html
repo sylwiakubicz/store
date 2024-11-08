@@ -15,7 +15,7 @@
 
             <div class="hidden lg:group-hover/mainMenu:block ml-4 text-base lg:ml-0 lg:bg-green-darker text-left lg:text-nowrap lg:absolute lg:w-[13.75rem]">
                 <li (click)="handleDropdownSubMenu(tab.name)" *ngFor="let tab of subMenuTabs.subMenu" class="group/subMenu flex flex-col relative first-of-type:-mt-3 lg:first-of-type:mt-0">
-                    <button class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:py-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center">
+                    <button class="mb-3 lg:hover:bg-green-hover lg:px-5 lg:pb-3.5 lg:mb-0 lg:mt-0 flex justify-between items-center">
                         <a>{{tab.name}}</a>
                         <app-dropdown-arrow *ngIf="tab.subMenu" [rightArrow]="true"></app-dropdown-arrow>
                     </button>

@@ -4,10 +4,8 @@
         <p class="hidden text-xs md:block lg:text-sm">Your basket</p>
         <p class="font-semibold text-nowrap md:text-xl md:font-bold lg:text-2xl">0.00 zł</p>
     </div>
-    <div class="w-4 h-4 text-[10px] text-center absolute bottom-5 right-0 text-custom-red bg-green-dark rounded-lg sm:left-6 md:top-0 lg:hidden">
-        (<span class="text-font-additional-color-light">0</span>)
-    </div>
-    <div class="hidden w-4 h-4 text-[10px] text-center absolute bottom-9 left-9 rounded-lg bg-custom-red text-font-additional-color-light lg:block">
-        <span class="text-font-additional-color-light">0</span>
+    <div class="w-4 h-4 text-font-additional-color-light text-[10px] absolute bottom-5 right-0 bg-green-dark rounded-lg sm:left-6 md:top-0 
+                lg:bottom-9 lg:left-9 lg:bg-custom-red ">
+        <span class="flex items-center justify-center before:content-['('] before:relative after:relative after:top-[-1px] before:top-[-1px] before:text-custom-red after:text-custom-red after:content-[')'] lg:after:hidden lg:before:hidden">0</span>
     </div>
 </div>

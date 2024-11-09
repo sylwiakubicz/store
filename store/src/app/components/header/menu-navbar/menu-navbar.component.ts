@@ -4,6 +4,7 @@ import * as menu from "../../../../assets/data/menu.json"
 import { NgFor, NgIf, NgClass } from '@angular/common';
 import {FacebookIconComponent } from '../../icons/facebook-icon/facebook-icon.component'
 import { InstagramIconComponent } from '../../icons/instagram-icon/instagram-icon.component';
+import { PawnIconComponent } from '../../icons/pawn-icon/pawn-icon.component';
 
 @Component({
   selector: 'app-menu-navbar',
@@ -14,7 +15,8 @@ import { InstagramIconComponent } from '../../icons/instagram-icon/instagram-ico
     NgIf,
     NgClass,
     FacebookIconComponent,
-    InstagramIconComponent
+    InstagramIconComponent,
+    PawnIconComponent
   ],
   templateUrl: './menu-navbar.component.html',
 })

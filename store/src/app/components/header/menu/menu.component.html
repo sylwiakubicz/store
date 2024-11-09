@@ -1,4 +1,4 @@
 <div class="w-full bg-green-light flex justify-center">
-    <app-hamburger-menu-icon class="w-14 h-14 flex justify-center items-center bg-green-dark xs:h-16 xs:w-16 lg:hidden" (click)="toggleNavber()"/>
-    <app-menu-navbar [ngClass]="showNavbar ? 'left-0' : '-left-full'" class="absolute top-0 h-full w-full lg:justify-center lg:static lg:flex lg:flex-grow lg:bg-green-dark"></app-menu-navbar>
+    <app-hamburger-menu-icon class="w-14 h-14 flex justify-center items-center bg-green-dark xs:h-16 xs:w-16 lg:hidden" (click)="toggleShowSidebarNavbar()"/>
+    <app-menu-navbar [ngClass]="(isSidebarNavbarShow | async) ? 'left-0' : '-left-full'" class="absolute top-0 h-full w-full lg:justify-center lg:static lg:flex lg:flex-grow lg:bg-green-dark"></app-menu-navbar>
 </div>

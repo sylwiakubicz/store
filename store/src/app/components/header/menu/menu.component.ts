@@ -1,7 +1,12 @@
 import { Component } from '@angular/core';
 import { MenuNavbarComponent } from '../menu-navbar/menu-navbar.component';
-import { NgClass } from '@angular/common';
+import { AsyncPipe, NgClass } from '@angular/common';
 import { HamburgerMenuIconComponent } from '../../icons/hamburger-menu-icon/hamburger-menu-icon.component';
+import { Observable } from 'rxjs';
+import { Store } from '@ngrx/store';
+import { AppState } from '../../../states/app.state';
+import { selectIsSidebarNavbarShow } from '../../../states/navbar/navbar.selector';
+import { toggleShowSidebarNavbar } from '../../../states/navbar/navbar.actions';
 
 @Component({
   selector: 'app-menu',
@@ -9,14 +14,19 @@ import { HamburgerMenuIconComponent } from '../../icons/hamburger-menu-icon/hamb
   imports: [
     MenuNavbarComponent,
     NgClass,
-    HamburgerMenuIconComponent
+    HamburgerMenuIconComponent,
+    AsyncPipe
   ],
   templateUrl: './menu.component.html',
 })
 export class MenuComponent {
-  showNavbar : boolean = false
+  isSidebarNavbarShow : Observable<boolean> 
 
-  toggleNavber() {
-    this.showNavbar = !this.showNavbar
+  constructor(private store: Store<AppState>) {
+    this.isSidebarNavbarShow = this.store.select(selectIsSidebarNavbarShow)
+  }
+
+  toggleShowSidebarNavbar() {
+    this.store.dispatch(toggleShowSidebarNavbar())
   }
 }

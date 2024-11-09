@@ -35,9 +35,9 @@ module.exports = {
       "green-dark": "#83A13B",
       "green-darker": "#698929",
       "green-hover":"#628025",
-      "orange": "#EE643A",
-      "blue": "#345EA8",
-      "red": "#DF341D",
+      "custom-orange": "#EE643A",
+      "custom-blue": "#345EA8",
+      "custom-red": "#DF341D",
       "pine-green": "#2B9888"
     },
     fontFamily: {

@@ -3,8 +3,8 @@
         <app-header-logo></app-header-logo>
         <div class="flex gap-7 items-center lg:order-2">
             <div class="h-6 cursor-pointer lg:hidden">
-                <app-search-icon (click)="searchToggle = true" [ngClass]="searchToggle ? 'hidden' : 'block'" class="h-full stroke-[20px] stroke-font-additional-color-light fill-font-additional-color-light" />
-                <app-cross-icon (click)="searchToggle = false" [ngClass]="searchToggle ? 'block' : 'hidden'" class="h-full" />
+                <app-search-icon (click)="toggleSearchInput()" [ngClass]="(isSearchShow | async)  ? 'hidden' : 'block'" class="h-full stroke-[20px] stroke-font-additional-color-light fill-font-additional-color-light" />
+                <app-cross-icon (click)="toggleSearchInput()" [ngClass]="(isSearchShow | async) ? 'block' : 'hidden'" class="h-full" />
             </div>
             <app-header-basket-info></app-header-basket-info>
         </div>
@@ -12,5 +12,5 @@
     </div>
 </div>
 
-<app-header-search [ngClass]="searchToggle ? 'flex' : 'hidden'" class="w-full absolute left-0 px-6 items-center justify-center bg-green-dark h-20 flex-grow lg:hidden"></app-header-search>
+<app-header-search [ngClass]="(isSearchShow | async) ? 'flex' : 'hidden'" class="w-full absolute left-0 px-6 items-center justify-center bg-green-dark h-20 flex-grow lg:hidden"></app-header-search>
 

@@ -8,8 +8,6 @@ import { AngularLogoIconComponent } from '../../icons/angular-logo-icon/angular-
     AngularLogoIconComponent
   ],
   templateUrl: './header-logo.component.html',
-  styles: ``
 })
 export class HeaderLogoComponent {
-
 }

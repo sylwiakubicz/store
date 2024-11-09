@@ -8,8 +8,6 @@ import { SearchIconComponent } from '../../icons/search-icon/search-icon.compone
     SearchIconComponent
   ],
   templateUrl: './header-search.component.html',
-  styles: ``
 })
 export class HeaderSearchComponent {
-
 }

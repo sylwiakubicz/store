@@ -8,7 +8,6 @@ import { RookIconComponent } from '../../icons/rook-icon/rook-icon.component';
     RookIconComponent
   ],
   templateUrl: './header-basket-info.component.html',
-  styles: ``
 })
 export class HeaderBasketInfoComponent {
 

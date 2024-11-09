@@ -5,6 +5,7 @@ import { HeaderSearchComponent } from '../header-search/header-search.component'
 import { NgClass } from '@angular/common';
 import { SearchIconComponent } from '../../icons/search-icon/search-icon.component';
 import { CrossIconComponent } from '../../icons/cross-icon/cross-icon.component';
+
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -17,7 +18,6 @@ import { CrossIconComponent } from '../../icons/cross-icon/cross-icon.component'
     CrossIconComponent
   ],
   templateUrl: './header.component.html',
-  styles: ``
 })
 export class HeaderComponent {
   searchToggle : boolean = true

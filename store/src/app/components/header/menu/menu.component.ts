@@ -12,7 +12,6 @@ import { HamburgerMenuIconComponent } from '../../icons/hamburger-menu-icon/hamb
     HamburgerMenuIconComponent
   ],
   templateUrl: './menu.component.html',
-  styles: ``
 })
 export class MenuComponent {
   showNavbar : boolean = false

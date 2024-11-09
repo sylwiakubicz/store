@@ -12,8 +12,6 @@ import { MenuComponent } from '../menu/menu.component';
     MenuComponent
   ],
   templateUrl: './header-wrapper.component.html',
-  styles: ``
 })
 export class HeaderWrapperComponent {
-
 }

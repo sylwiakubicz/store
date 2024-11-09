@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { DropdownArrowComponent } from '../../icons/dropdown-arrow/dropdown-arrow.component';
 import * as menu from "../../../../assets/data/menu.json"
 import { NgFor, NgIf, NgClass } from '@angular/common';
+import {FacebookIconComponent } from '../../icons/facebook-icon/facebook-icon.component'
 
 @Component({
   selector: 'app-menu-navbar',
@@ -10,7 +11,8 @@ import { NgFor, NgIf, NgClass } from '@angular/common';
     DropdownArrowComponent,
     NgFor,
     NgIf,
-    NgClass
+    NgClass,
+    FacebookIconComponent
   ],
   templateUrl: './menu-navbar.component.html',
 })

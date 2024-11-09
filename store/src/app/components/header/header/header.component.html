@@ -1,14 +1,14 @@
 <div class="w-full bg-green-normal flex justify-center">
     <div class="px-5 h-14 w-full flex items-center justify-between bg-green-normal xs:h-16 lg:py-3.5 lg:h-24 lg:px-8 2xl:h-28 2xl:w-[1400px]">
-    <app-header-logo></app-header-logo>
-    <div class="flex gap-7 items-center lg:order-2">
-        <button class="h-6 cursor-pointer lg:hidden">
-            <app-search-icon (click)="searchToggle = true" [ngClass]="searchToggle ? 'hidden' : 'block'" class="h-full stroke-[20px] stroke-font-additional-color-light fill-font-additional-color-light" ></app-search-icon>
-            <app-cross-icon (click)="searchToggle = false" [ngClass]="searchToggle ? 'block' : 'hidden'" class="h-full"></app-cross-icon>
-        </button>
-        <app-header-basket-info></app-header-basket-info>
-    </div>
-    <app-header-search class="hidden order-1 lg:block "></app-header-search>
+        <app-header-logo></app-header-logo>
+        <div class="flex gap-7 items-center lg:order-2">
+            <div class="h-6 cursor-pointer lg:hidden">
+                <app-search-icon (click)="searchToggle = true" [ngClass]="searchToggle ? 'hidden' : 'block'" class="h-full stroke-[20px] stroke-font-additional-color-light fill-font-additional-color-light" ></app-search-icon>
+                <app-cross-icon (click)="searchToggle = false" [ngClass]="searchToggle ? 'block' : 'hidden'" class="h-full"></app-cross-icon>
+            </div>
+            <app-header-basket-info></app-header-basket-info>
+        </div>
+        <app-header-search class="hidden order-1 lg:block "></app-header-search>
     </div>
 </div>
 

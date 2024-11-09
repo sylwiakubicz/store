@@ -3,6 +3,7 @@ import { DropdownArrowComponent } from '../../icons/dropdown-arrow/dropdown-arro
 import * as menu from "../../../../assets/data/menu.json"
 import { NgFor, NgIf, NgClass } from '@angular/common';
 import {FacebookIconComponent } from '../../icons/facebook-icon/facebook-icon.component'
+import { InstagramIconComponent } from '../../icons/instagram-icon/instagram-icon.component';
 
 @Component({
   selector: 'app-menu-navbar',
@@ -12,7 +13,8 @@ import {FacebookIconComponent } from '../../icons/facebook-icon/facebook-icon.co
     NgFor,
     NgIf,
     NgClass,
-    FacebookIconComponent
+    FacebookIconComponent,
+    InstagramIconComponent
   ],
   templateUrl: './menu-navbar.component.html',
 })

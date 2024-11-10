@@ -17,7 +17,30 @@ import { NgClass } from '@angular/common';
 export class ThemeToggleButtonComponent {
   isDarkMode : boolean = false;
 
-  toggleDarkMode() {
-    this.isDarkMode = !this.isDarkMode
+  ngOnInit(): void {
+    const storedTheme = localStorage.getItem('theme');
+
+    if (storedTheme) {
+      this.isDarkMode = storedTheme === 'dark';
+    } else {
+      this.isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    }
+
+    this.updateBodyClass();
+  }
+
+  toggleDarkMode(): void {
+    this.isDarkMode = !this.isDarkMode;
+    this.updateBodyClass();
+    
+    localStorage.setItem('theme', this.isDarkMode ? 'dark' : 'light');
+  }
+
+  private updateBodyClass(): void {
+    if (this.isDarkMode) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
   }
 }

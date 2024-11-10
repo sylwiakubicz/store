@@ -38,6 +38,16 @@ a {
         --custom-red: #DF341D;
         --pine-green: #2B9888;
     }
+
+    body.dark {
+        --bg-color: #1E313B;
+        --font-main-color: #E2E8F0;
+        --font-additional-color: #E2E8F0;
+        --gray-light: #958b8b;
+        --gray-normal: #d5cfcf;
+        --gray-dark: #E2E8F0;
+    }
+    
     @media (prefers-color-scheme:dark) {
         :root {
             --bg-color: #1E313B;

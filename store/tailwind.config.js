@@ -6,40 +6,22 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "bg-color": {
-        light: "#fff",
-        dark: "#1E313B"
-      },
-      "font-main-color": {
-        light: "#000",
-        dark: "#E2E8F0"
-      },
-      "font-additional-color": {
-        light: "#fff",
-        dark: "#E2E8F0",
-      },
-      "gray-light": {
-        light: "#F1F1F1",
-        dark: "#958b8b"
-      },
-      "gray-normal": {
-        light: "#777777",
-        dark: "#d5cfcf"
-      },
-      "gray-dark": {
-        light: "#222222",
-        dark: "#E2E8F0"
-      },
-      "green-light": "#A1C152",
-      "green-normal": "#94B447",
-      "green-dark": "#83A13B",
-      "green-darker": "#698929",
-      "green-hover":"#628025",
-      "custom-orange": "#EE643A",
-      "custom-blue": "#345EA8",
-      "custom-red": "#DF341D",
-      "pine-green": "#2B9888"
-    },
+      'bg-color': 'var(--bg-color)',
+      'font-main-color': 'var(--font-main-color)',
+      'font-additional-color': 'var(--font-additional-color)',
+      'gray-light': 'var(--gray-light)',
+      'gray-normal': 'var(--gray-normal)',
+      'gray-dark': 'var(--gray-dark)',
+      'green-light': 'var(--green-light)',
+      'green-normal': 'var(--green-normal)',
+      'green-dark': 'var(--green-dark)',
+      'green-darker': 'var(--green-darker)',
+      'green-hover': 'var(--green-hover)',
+      'custom-orange': 'var(--custom-orange)',
+      'custom-blue': 'var(--custom-blue)',
+      'custom-red': 'var(--custom-red)',
+      'pine-green': 'var(--pine-green)',
+    },  
     fontFamily: {
       'main-font': ["Gill Sans",'sans-serif']
     },

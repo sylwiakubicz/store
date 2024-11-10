@@ -19,3 +19,34 @@ a {
         scrollbar-width: none; 
     }
 }
+
+@layer base {
+    :root {
+        --bg-color: #fff;
+        --font-main-color: #000;
+        --font-additional-color: #fff;
+        --gray-light: #F1F1F1;
+        --gray-normal: #777777;
+        --gray-dark: #222222;
+        --green-light: #A1C152;
+        --green-normal: #94B447;
+        --green-dark: #83A13B;
+        --green-darker: #698929;
+        --green-hover: #628025;
+        --custom-orange: #EE643A;
+        --custom-blue: #345EA8;
+        --custom-red: #DF341D;
+        --pine-green: #2B9888;
+    }
+    @media (prefers-color-scheme:dark) {
+        :root {
+            --bg-color: #1E313B;
+            --font-main-color: #E2E8F0;
+            --font-additional-color: #E2E8F0;
+            --gray-light: #958b8b;
+            --gray-normal: #d5cfcf;
+            --gray-dark: #E2E8F0;
+        }
+    }
+
+}

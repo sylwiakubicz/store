@@ -41,12 +41,18 @@ a {
     }
 
     body.dark {
-        --bg-color: #1E313B;
-        --font-main-color: #E2E8F0;
-        --font-additional-color: #E2E8F0;
+        --green-light: #506945;
+        --green-normal: #45613E;
+        --green-dark: #3A5736;
+        --green-darker: #2E4A2C;
+        --green-hover: #274123;
+        --bg-color: #1C1C1C;
+        --font-main-color: #E0E0E0;
+        --font-additional-color: #E0E0E0;
         --gray-light: #958b8b;
         --gray-normal: #d5cfcf;
         --gray-dark: #E2E8F0;
+
     }
     
     @media (prefers-color-scheme:dark) {

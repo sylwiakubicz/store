@@ -25,6 +25,7 @@ a {
         --bg-color: #fff;
         --font-main-color: #000;
         --font-additional-color: #fff;
+        --font-always-dark-color: #000;
         --gray-light: #F1F1F1;
         --gray-normal: #777777;
         --gray-dark: #222222;

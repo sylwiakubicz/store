@@ -10,6 +10,7 @@ module.exports = {
       'bg-color': 'var(--bg-color)',
       'font-main-color': 'var(--font-main-color)',
       'font-additional-color': 'var(--font-additional-color)',
+      'font-always-dark-color': 'var(--font-always-dark-color)',
       'gray-light': 'var(--gray-light)',
       'gray-normal': 'var(--gray-normal)',
       'gray-dark': 'var(--gray-dark)',

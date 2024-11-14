@@ -1,4 +1,4 @@
-<div class="flex flex-col w-full relative border-[1px] border-black/20 bg-font-additional-color lg:hover:shadow-lg transition-shadow">
+<div class="flex flex-col w-full relative border-[1px] border-black/20 bg-font-additional-color sm:hover:shadow-lg transition-shadow group/product sm:hover:z-10 sm:hover:border-font-additional-color">
     <!-- Image container -->
     <div class="p-6 h-[248px] w-full">
         <img 
@@ -8,7 +8,7 @@
         />
     </div>
     <!-- Availability badge -->
-    <!-- TODO W zależnościi od statusu produktu zmieniać kolor tła -->
+    <!-- TODO W zależnościi od statusu (będzie to zmienna w produkcie) produktu zmieniać kolor tła -->
     <div class="absolute -top-2 right-2 text-font-additional-color w-6 h-8 bg-green-normal rounded-t-[4px] flex justify-center items-center
                 after:border-t-[16px] after:border-r-[12px] after:border-t-green-normal after:border-r-transparent after:absolute after:-bottom-4 after:left-0
                 before:border-b-[16px] before:border-r-[12px] before:border-r-green-normal before:border-b-transparent before:absolute before:-bottom-4 before:right-0">
@@ -24,14 +24,17 @@
         <h2 class="text-xl mb-2 text-font-always-dark-color">€{{ product.price.toFixed(2) }}</h2>
         <!-- Availability -->
         <div class="flex items-center gap-2 mb-6">
-            <!-- TODO zmieniać kolor tła w zależności od statusu produktu -->
+            <!-- TODO zmieniać kolor tła w zależności od statusu (będzie to zmienna w produkcie) produktu -->
             <span class="relative flex items-center justify-center h-2.5 w-2.5">
                 <span [class.border-pine-green]="product.isAvailable" [class.border-gray-400]="!product.isAvailable" class="animate-ping absolute inline-flex w-3 h-3 rounded-full border-[2px]"></span>
                 <span [class.bg-pine-green]="product.isAvailable" [class.bg-gray-400]="!product.isAvailable" class="w-2 h-2 rounded-full"></span>
             </span>
             <span class="text-sm font-bold" [class.text-pine-green]="product.isAvailable" [class.text-gray-400]="!product.isAvailable">{{ product.isAvailable ? 'in stock' : 'out of stock' }}</span>
         </div>
-        <div class="flex justify-between items-center mx-auto pb-[30px]">
+        <!-- Button container -->
+        <div class="flex justify-between items-center mx-auto pb-[30px] 
+                    sm:hidden sm:group-hover/product:flex sm:justify-center sm:absolute sm:bottom-0 sm:-right-[1px] sm:-left-[1px] sm:bg-font-additional-color sm:border-x-[1px] sm:border-b-[1px] sm:border-font-additional-color 
+                    sm:group-hover/product:shadow-lg sm:group-hover/product:-bottom-[84px]">
             <button 
                 class="px-8 h-[54px] font-bold bg-pine-green border-none text-sm text-font-additional-color rounded-md hover:bg-custom-blue transition-colors cursor-pointer"
                 [disabled]="!product.isAvailable"

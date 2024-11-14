@@ -35,60 +35,22 @@ module.exports = {
       'xl': "1280px",
       '2xl': "1536px"
     },
-    // TODO poprawić animację ping
     extend: {
       animation: {
-        ping: 'ping 1.5s linear infinite'
+        ping: 'ping 1.8s linear infinite'
       },
       keyframes: {
         ping:{
-          '0%, 10%': {
-            transform: 'scale(1)',
-            opacity: '1'
-          },
-          '10%': {
-            transform: 'scale(1.2)',
-            opacity: '0.9'
-          },
-          '20%': {
-            transform: 'scale(1.4)',
-            opacity: '0.8'
-          },
-          '30%': {
-            transform: 'scale(1.6)',
-            opacity: '0.7'
-          },
-          '40%': {
-            transform: 'scale(1.8)',
-            opacity: '0.6'
+          from: {
+            transform: 'scale(.1, .1)',
+            opacity: '0'
           },
           '50%': {
-            transform: 'scale(1.9)',
-            opacity: '0.5'
+            opacity: '1'
           },
-          '60%': {
-            transform: 'scale(2)',
-            opacity: '0.4'
-          },
-          '70%': {
-            transform: 'scale(2.1)',
-            opacity: '0.3'
-          },
-          '80%': {
-            transform: 'scale(2.2)',
-            opacity: '0.2',
-          },
-          "85": {
-            transform: 'scale(2.3)',
-            opacity: '0.1',
-          },
-          '90%': {
-            transform: 'scale(2.4)',
-            opacity: '0',
-          },
-          "100%": {
-            transform: 'scale(2.5)',
-            opacity: '0',
+          to: {
+            transform: 'scale(1.2, 1.2)',
+            opacity: '0'
           }
         }
       }

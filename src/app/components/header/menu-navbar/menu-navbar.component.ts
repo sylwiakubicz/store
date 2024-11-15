@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { DropdownArrowComponent } from '../../icons/dropdown-arrow/dropdown-arrow.component';
 import * as menu from "../../../../assets/data/menu.json"
-import { NgFor, NgIf, NgClass } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import {FacebookIconComponent } from '../../icons/facebook-icon/facebook-icon.component'
 import { InstagramIconComponent } from '../../icons/instagram-icon/instagram-icon.component';
 import { PawnIconComponent } from '../../icons/pawn-icon/pawn-icon.component';
@@ -11,12 +11,10 @@ import { PawnIconComponent } from '../../icons/pawn-icon/pawn-icon.component';
   standalone: true,
   imports: [
     DropdownArrowComponent,
-    NgFor,
-    NgIf,
-    NgClass,
     FacebookIconComponent,
     InstagramIconComponent,
-    PawnIconComponent
+    PawnIconComponent,
+    CommonModule
   ],
   templateUrl: './menu-navbar.component.html',
 })

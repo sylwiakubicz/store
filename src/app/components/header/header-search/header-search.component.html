@@ -1,6 +1,16 @@
-<div class="relative bg-green-normal w-full sm:w-[initial]">
-    <input type="text" placeholder="Search" 
-    class="h-[50px] bg-font-additional-color leading-[50px] text-font-always-dark-color border-0 px-5 py-3 text-xl font-light rounded-sm w-full focus-visible:outline-none focus:border-transparent focus:ring-0 
+<form role="search" class="relative bg-green-normal w-full sm:w-[initial]">
+    <label for="search-input" class="sr-only">Search products</label>
+    <input 
+        id="search-input"
+        type="search" 
+        placeholder="Search" 
+        aria-label="Search products"
+        class="h-[50px] bg-font-additional-color leading-[50px] text-font-always-dark-color border-0 px-5 py-3 text-xl font-light rounded-sm w-full focus-visible:outline-none focus:border-transparent focus:ring-0 
             sm:w-[480px] xl:h-[56px] xl:leading-[56px]">
-    <app-search-icon class="h-5 stroke-[5px] cursor-pointer stroke-black fill-black absolute top-3.5 right-6 xl:top-4 hover:scale-110" />
-</div>
+    <button 
+        type="submit"
+        aria-label="Submit search"
+        class="h-5 cursor-pointer absolute top-3.5 right-6 xl:top-4 hover:scale-110">
+        <app-search-icon class="stroke-[5px] stroke-black fill-black" />
+    </button>
+</form>

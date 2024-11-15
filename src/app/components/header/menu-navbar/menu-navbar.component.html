@@ -1,15 +1,20 @@
 <nav class="w-full max-w-[300px] h-full flex flex-col text-lg p-6 bg-green-light overflow-y-scroll no-scrollbar z-50
             lg:overflow-y-visible lg:max-w-full lg:bg-green-dark lg:px-8 lg:h-[60px] lg:text-sm lg:justify-between lg:items-center lg:flex-row lg:p-0
-            xl:text-base 2xl:h-16 2xl:w-[1400px]">
+            xl:text-base 2xl:h-16 2xl:w-[1400px]"
+    aria-label="Main navigation">
 
-    <ul class="flex items-start flex-col lg:items-center lg:flex-row lg:h-full">
-        <li (click)="handleDropdownMenu()" class="lg:h-full w-full relative group/mainMenu cursor-pointer">
-            <a class="relative flex w-full items-center mb-6 
-                lg:mb-0 lg:h-full lg:font-bold lg:bg-green-darker lg:pl-16 lg:pr-8 lg:w-44 lg:justify-end">
-                <app-pawn-icon class="absolute left-8"/>
+    <ul role="menubar" class="flex items-start flex-col lg:items-center lg:flex-row lg:h-full">
+        <li role="menuitem" 
+            aria-haspopup="true" 
+            (click)="handleDropdownMenu()" 
+            class="lg:h-full w-full relative group/mainMenu cursor-pointer">
+            <button class="relative flex w-full items-center mb-6 
+                lg:mb-0 lg:h-full lg:font-bold lg:bg-green-darker lg:pl-16 lg:pr-8 lg:w-44 lg:justify-end"
+                aria-expanded="false">
+                <app-pawn-icon class="absolute left-8" aria-hidden="true"/>
                 Products
-                <app-dropdown-arrow></app-dropdown-arrow>
-            </a>
+                <app-dropdown-arrow aria-hidden="true"></app-dropdown-arrow>
+            </button>
 
             <div class="hidden lg:group-hover/mainMenu:block ml-4 text-base lg:ml-0 lg:bg-green-darker text-left lg:text-nowrap lg:absolute lg:w-[13.75rem]">
                 <li (click)="handleDropdownSubMenu(tab.name)" *ngFor="let tab of subMenuTabs.subMenu" class="group/subMenu flex flex-col relative first-of-type:-mt-3 lg:first-of-type:mt-0">
@@ -42,7 +47,7 @@
     <hr class="w-full my-8 lg:hidden">
 
     <div class="h-full flex flex-col lg:gap-8 lg:flex-row">
-        <a class="mb-6 lg:mb-0 lg:self-center cursor-pointer">Contact Us</a>
+        <a href="/contact" class="mb-6 lg:mb-0 lg:self-center cursor-pointer">Contact Us</a>
         <hr class="w-full my-8 lg:hidden">
         <div class="flex gap-6 items-center lg:border-l-2 lg:border-l-green-darker lg:pl-5">
             <app-facebook-icon />

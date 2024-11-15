@@ -1,14 +1,32 @@
 <div class="w-full bg-green-light flex justify-center">
     <div class="px-5 w-full font-semibold text-xs flex justify-end items-center h-[30px] lg:h-8 lg:justify-between lg:px-8 lg:text-sm xl:h-[34px] 2xl:w-[1400px] 2xl:h-9">
-        <div class="hidden gap-6 items-center lg:flex">
-            <p>Lorem ipsum dolor sit.</p>
-            <app-circle-icon />
-            <p>Lorem ipsum dolor sit amet.</p>
-            <app-circle-icon />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
+        <ul class="hidden gap-6 items-center lg:flex" aria-label="Promotional information">
+            <li>Lorem ipsum dolor sit.</li>
+            <li aria-hidden="true"><app-circle-icon /></li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li aria-hidden="true"><app-circle-icon /></li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        </ul>
         <div class="flex gap-4 items-center">
-            <p><a href="#">Log in</a> / <a href="#">Register</a></p>
+            <nav aria-label="User account navigation">
+                <ul class="flex gap-2">
+                    <li>
+                        <a href="/login" 
+                            class="hover:underline focus:underline"
+                            aria-label="Log in to your account">
+                            Log in
+                        </a>
+                    </li>
+                    <li aria-hidden="true">/</li>
+                    <li>
+                        <a href="/register" 
+                            class="hover:underline focus:underline"
+                            aria-label="Create new account">
+                            Register
+                        </a>
+                    </li>
+                </ul>
+            </nav>
             <app-theme-toggle-button class="lg:mt-1"></app-theme-toggle-button>
         </div>
     </div>

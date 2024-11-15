@@ -1,5 +1,24 @@
-<div class="w-full bg-green-light flex justify-center">
-    <app-hamburger-menu-icon class="w-14 h-14 flex justify-center items-center bg-green-dark xs:h-16 xs:w-16 lg:hidden" (click)="toggleShowSidebarNavbar()"/>
-    <app-menu-navbar [ngClass]="(isSidebarNavbarShow | async) ? 'left-0' : '-left-full'" class="absolute z-20 top-0 h-full w-full lg:justify-center lg:static lg:flex lg:flex-grow lg:bg-green-dark lg:z-auto"></app-menu-navbar>
-    <div class="fixed top-0 right-0 w-full h-full bg-black z-10 opacity-80 lg:hidden" [ngClass]="(isSidebarNavbarShow | async) ? 'visible' : 'invisible'"></div>
+<div class="w-full bg-green-light flex justify-center" aria-label="Main menu">
+    <button 
+        type="button"
+        class="w-14 h-14 flex justify-center items-center bg-green-dark xs:h-16 xs:w-16 lg:hidden"
+        (click)="toggleShowSidebarNavbar()"
+        [attr.aria-expanded]="(isSidebarNavbarShow | async)"
+        aria-controls="main-menu"
+        aria-label="Toggle main menu">
+        <app-hamburger-menu-icon aria-hidden="true"/>
+    </button>
+
+    <app-menu-navbar 
+        id="main-menu"
+        [ngClass]="(isSidebarNavbarShow | async) ? 'left-0' : '-left-full'" 
+        class="absolute z-20 top-0 h-full w-full lg:justify-center lg:static lg:flex lg:flex-grow lg:bg-green-dark lg:z-auto"
+        [attr.aria-hidden]="!(isSidebarNavbarShow | async)">
+    </app-menu-navbar>
+
+    <div 
+        class="fixed top-0 right-0 w-full h-full bg-black z-10 opacity-80 lg:hidden" 
+        [ngClass]="(isSidebarNavbarShow | async) ? 'visible' : 'invisible'"
+        aria-hidden="true">
+    </div>
 </div>

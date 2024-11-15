@@ -1,14 +1,15 @@
-<div 
-    class="relative cursor-pointer sm:flex sm:flex-nowrap sm:items-center"
-    role="button"
-    aria-label="Shopping cart"
-    tabindex="0">
-    <app-rook-icon />
+<button 
+    class="relative sm:flex sm:flex-nowrap sm:items-center"
+    aria-label="Shopping cart with 0 items, total: 0.00 zł"
+    type="button">
+    <app-rook-icon aria-hidden="true"/>
     <div class="flex flex-col">
-        <p class="hidden text-xs md:block lg:text-sm">Your basket</p>
-        <p class="font-semibold text-nowrap md:text-xl md:font-bold lg:text-2xl" aria-label="Cart total">0.00 zł</p>
+        <span class="hidden text-xs md:block lg:text-sm">Your basket</span>
+        <span class="font-semibold text-nowrap md:text-xl md:font-bold lg:text-2xl">0.00 zł</span>
     </div>
-    <div class="w-4 h-4 text-font-additional-color-light text-[10px] absolute bottom-5 right-0 bg-green-dark rounded-lg sm:left-6 md:top-0 lg:bottom-9 lg:left-9 lg:bg-custom-red" aria-label="Items in cart">
+    <span class="w-4 h-4 text-font-additional-color-light text-[10px] absolute bottom-5 right-0 bg-green-dark rounded-lg sm:left-6 md:top-0 lg:bottom-9 lg:left-9 lg:bg-custom-red" 
+        role="status"
+        aria-live="polite">
         <span class="flex items-center justify-center before:content-['('] before:relative after:relative after:top-[-1px] before:top-[-1px] before:text-custom-red after:text-custom-red after:content-[')'] lg:after:hidden lg:before:hidden">0</span>
-    </div>
-</div>
+    </span>
+</button>

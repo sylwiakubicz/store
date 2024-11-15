@@ -1,0 +1,24 @@
+<section 
+    class="w-full max-w-[1400px] mx-auto px-4 pt-8 relative" 
+    aria-labelledby="section-heading">
+    <!-- Dekoracyjne tło -->
+    <div 
+        class="absolute -top-[32px] -left-[100px] text-[160px] font-[900] tracking-tighter text-custom-blue opacity-5 uppercase z-[-1]"
+        aria-hidden="true">
+        {{ title.endsWith('!') ? title.slice(0,-1) : title }}
+    </div>
+    
+    <!-- Główny nagłówek -->
+    <h2 
+        id="section-heading"
+        class="text-custom-blue text-3xl font-bold flex items-center"
+        role="heading" 
+        aria-level="2">
+        {{ title }}
+        <!-- Dekoracyjna linia -->
+        <span 
+            class="inline-block w-16 h-[2px] bg-custom-blue ml-4"
+            aria-hidden="true">
+        </span>
+    </h2>
+</section>

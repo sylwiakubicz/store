@@ -1,47 +1,92 @@
-<!-- TODO zmienić hover na transition translate-y-[-84px] -->
-<div class="flex flex-col w-full relative border-[1px] border-black/20 bg-font-additional-color sm:hover:shadow-lg transition-shadow group/product sm:hover:z-10 sm:hover:border-font-additional-color">
+<article 
+    class="flex flex-col w-full relative border-[1px] border-black/20 bg-font-additional-color sm:hover:shadow-lg transition-shadow group/product sm:hover:z-10 sm:hover:border-font-additional-color"
+    [attr.aria-label]="product.name"
+>
     <!-- Image container -->
-    <div class="p-6 h-[248px] w-full">
+    <figure class="p-6 h-[248px] w-full">
         <img 
-            [src]="product.imageUrl" 
+            [ngSrc]="product.imageUrl" 
             [alt]="product.name"
             class="object-contain w-full h-full cursor-pointer"
+            loading="lazy"
+            width="248"
+            height="248"
+            priority="false"
         />
-    </div>
-    <!-- Availability badge -->
-    <!-- TODO W zależnościi od statusu (będzie to zmienna w produkcie) produktu zmieniać kolor tła -->
-    <div class="absolute -top-2 right-2 text-font-additional-color w-6 h-8 bg-green-normal rounded-t-[4px] flex justify-center items-center
+    </figure>
+
+    <!-- Status badge -->
+    <div 
+        class="absolute -top-2 right-2 text-font-additional-color w-6 h-8 bg-green-normal rounded-t-[4px] flex justify-center items-center
                 after:border-t-[16px] after:border-r-[12px] after:border-t-green-normal after:border-r-transparent after:absolute after:-bottom-4 after:left-0
-                before:border-b-[16px] before:border-r-[12px] before:border-r-green-normal before:border-b-transparent before:absolute before:-bottom-4 before:right-0">
+                before:border-b-[16px] before:border-r-[12px] before:border-r-green-normal before:border-b-transparent before:absolute before:-bottom-4 before:right-0"
+        role="status"
+        [attr.aria-label]="'Product status badge'"
+    >
         <app-star-icon />
     </div>
+
     <!-- Product info -->
     <div class="flex flex-col flex-grow px-[22px]">
-        <p class="text-xs text-custom-blue mb-[5px]">{{ product.category}}</p>
-        <h3 class="text-lg text-font-always-dark-color font-bold cursor-pointer hover:text-custom-blue transition-colors mb-7">{{ product.name }}</h3>
-        <h2 class="text-xl mb-2 text-font-always-dark-color">€{{ product.price.toFixed(2) }}</h2>
-        <!-- Availability -->
-        <div class="flex items-center gap-2 mb-6">
-            <!-- TODO zmieniać kolor tła w zależności od statusu (będzie to zmienna w produkcie) produktu -->
-            <span class="relative flex items-center justify-center h-2.5 w-2.5">
-                <span [class.border-pine-green]="product.isAvailable" [class.border-gray-400]="!product.isAvailable" class="animate-ping absolute inline-flex w-3 h-3 rounded-full border-[2px]"></span>
-                <span [class.bg-pine-green]="product.isAvailable" [class.bg-gray-400]="!product.isAvailable" class="w-2 h-2 rounded-full"></span>
-            </span>
-            <span class="text-sm font-bold" [class.text-pine-green]="product.isAvailable" [class.text-gray-400]="!product.isAvailable">{{ product.isAvailable ? 'in stock' : 'out of stock' }}</span>
+        <!-- Product metadata -->
+        <div class="product-metadata">
+            <span class="text-xs text-custom-blue mb-[5px]" role="text">{{ product.category }}</span>
+            <h2 class="text-lg text-font-always-dark-color font-bold cursor-pointer hover:text-custom-blue transition-colors mb-7">
+                {{ product.name }}
+            </h2>
         </div>
-        <!-- Button container -->
-        <div class="flex justify-between items-center mx-auto pb-[30px] 
+
+        <!-- Price -->
+        <div class="product-pricing" role="text" aria-label="Product price">
+            <span class="text-xl mb-2 text-font-always-dark-color">
+                €{{ product.price.toFixed(2) }}
+            </span>
+        </div>
+
+        <!-- Availability status -->
+        <div 
+            class="flex items-center gap-2 mb-6"
+            role="status"
+            [attr.aria-label]="product.isAvailable ? 'Product in stock' : 'Product out of stock'"
+        >
+            <span class="relative flex items-center justify-center h-2.5 w-2.5">
+                <span 
+                    [class.border-pine-green]="product.isAvailable" 
+                    [class.border-gray-400]="!product.isAvailable" 
+                    class="animate-ping absolute inline-flex w-3 h-3 rounded-full border-[2px]"
+                    aria-hidden="true"
+                ></span>
+                <span 
+                    [class.bg-pine-green]="product.isAvailable" 
+                    [class.bg-gray-400]="!product.isAvailable" 
+                    class="w-2 h-2 rounded-full"
+                    aria-hidden="true"
+                ></span>
+            </span>
+            <span 
+                class="text-sm font-bold" 
+                [class.text-pine-green]="product.isAvailable" 
+                [class.text-gray-400]="!product.isAvailable"
+            >
+                {{ product.isAvailable ? 'in stock' : 'out of stock' }}
+            </span>
+        </div>
+
+        <!-- Action container -->
+        <div 
+            class="flex justify-between items-center mx-auto pb-[30px] 
                     sm:h-0 sm:pb-0 sm:bg-font-additional-color sm:border-x-[1px] sm:border-b-[1px] sm:border-font-additional-color sm:justify-center
                     sm:absolute sm:bottom-0 sm:-right-[1px] sm:-left-[1px] sm:overflow-hidden
-                    sm:group-hover/product:bottom-[-84px] sm:group-hover/product:h-[84px] sm:group-hover/product:pb-[30px] transition-all duration-300">
+                    sm:group-hover/product:bottom-[-84px] sm:group-hover/product:h-[84px] sm:group-hover/product:pb-[30px] transition-all duration-300"
+        >
             <button 
-                class="px-8 h-[54px] font-bold bg-pine-green border-none text-sm text-font-additional-color rounded-md hover:bg-custom-blue transition-colors cursor-pointer
-                sm:hidden sm:group-hover/product:block"
+                class="px-8 h-[54px] font-bold bg-pine-green border-none text-sm text-font-additional-color rounded-md hover:bg-custom-blue transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 [disabled]="!product.isAvailable"
                 (click)="onAddToCart()"
+                [attr.aria-label]="'Add ' + product.name + ' to cart'"
             >
                 ADD TO BASKET
             </button>
         </div>
     </div>
-</div>
+</article>

@@ -1,33 +1,38 @@
-<div class="flex flex-col justify-center items-center text-center text-base text-gray-normal mb-8 px-5 md:flex-row md:items-start md:justify-start md:text-left md:mb-0">
-    
-    <ul class="md:pr-12 [&>*:not(:first-child)]:pb-2 [&>*:not(:first-child)]:cursor-pointer [&>*:not(:first-child)]:m-auto [&>*:not(:first-child)]:w-fit [&>*:not(:first-child)]:relative 
-        [&>*:not(:first-child)]:before:w-full [&>*:not(:first-child)]:before:h-[1px] [&>*:not(:first-child)]:before:bg-gray-normal [&>*:not(:first-child)]:before:bottom-2.5
-        md:[&>*:not(:first-child)]:m-0">
-        <li class="font-bold pb-4 text-lg text-font-main-color">Terms and conditions</li>
-        <li class="hover:before:absolute">Lorem, ipsum dolor.</li>
-        <li class="hover:before:absolute">Lorem ipsum dolor sit.</li>
-        <li class="hover:before:absolute">Lorem, ipsum.</li>
-        <li class="hover:before:absolute">Lorem, ipsum.</li>
-        <li class="hover:before:absolute">Lorem ipsum dolor sit.</li>
-        <li class="hover:before:absolute">Lorem ipsum dolor sit amet.</li>
-        <li class="hover:before:absolute">Lorem, ipsum.</li>
-    </ul>
-    <ul class="md:pr-12 [&>*:not(:first-child)]:pb-2 [&>*:not(:first-child)]:cursor-pointer [&>*:not(:first-child)]:m-auto [&>*:not(:first-child)]:w-fit [&>*:not(:first-child)]:relative 
-        [&>*:not(:first-child)]:before:w-full [&>*:not(:first-child)]:before:h-[1px] [&>*:not(:first-child)]:before:bg-gray-normal [&>*:not(:first-child)]:before:bottom-2.5
-        md:[&>*:not(:first-child)]:m-0">
-        <li class="font-bold pb-4 text-lg text-font-main-color">Info</li>
-        <li class="hover:before:absolute">Lorem ipsum dolor sit.</li>
-        <li class="hover:before:absolute">Lorem, ipsum dolor.</li>
-        <li class="hover:before:absolute">Lorem</li>
-        <li class="hover:before:absolute">Contact</li>
-    </ul>
-    <ul class="[&>*:not(:first-child)]:pb-2 [&>*:not(:first-child)]:cursor-pointer [&>*:not(:first-child)]:m-auto [&>*:not(:first-child)]:w-fit [&>*:not(:first-child)]:relative 
-    [&>*:not(:first-child)]:before:w-full [&>*:not(:first-child)]:before:h-[1px] [&>*:not(:first-child)]:before:bg-gray-normal [&>*:not(:first-child)]:before:bottom-2.5
-    md:[&>*:not(:first-child)]:m-0">
-        <li class="font-bold pb-4 text-lg text-font-main-color">My account</li>
-        <li class="hover:before:absolute">My Wish List</li>
-        <li class="hover:before:absolute">My Orders</li>
-        <li class="hover:before:absolute">Account settings</li>
-    </ul>
+<nav class="flex flex-col justify-center items-center text-center text-base text-gray-normal mb-8 px-5 md:flex-row md:items-start md:justify-start md:text-left md:mb-0" aria-label="Footer navigation">
 
-</div>
+    <div class="md:pr-12" role="region" aria-labelledby="terms-heading">
+        <h2 id="terms-heading" class="font-bold pb-4 text-lg text-font-main-color">Terms and conditions</h2>
+        <ul class="[&>li]:pb-2 [&>li]:cursor-pointer [&>li]:m-auto [&>li]:w-fit 
+            md:[&>li]:m-0">
+            <li class="hover:underline"><a href="#">Lorem, ipsum dolor.</a></li>
+            <li class="hover:underline"><a href="#">Lorem ipsum dolor sit.</a></li>
+            <li class="hover:underline"><a href="#">Lorem, ipsum.</a></li>
+            <li class="hover:underline"><a href="#">Lorem, ipsum.</a></li>
+            <li class="hover:underline"><a href="#">Lorem ipsum dolor sit.</a></li>
+            <li class="hover:underline"><a href="#">Lorem ipsum dolor sit amet.</a></li>
+            <li class="hover:underline"><a href="#">Lorem, ipsum.</a></li>
+        </ul>
+    </div>
+
+    <div class="md:pr-12" role="region" aria-labelledby="info-heading">
+        <h2 id="info-heading" class="font-bold pb-4 text-lg text-font-main-color">Info</h2>
+        <ul class="[&>li]:pb-2 [&>li]:cursor-pointer [&>li]:m-auto [&>li]:w-fit
+            md:[&>li]:m-0">
+            <li class="hover:underline"><a href="#">Lorem ipsum dolor sit.</a></li>
+            <li class="hover:underline"><a href="#">Lorem, ipsum dolor.</a></li>
+            <li class="hover:underline"><a href="#">Lorem</a></li>
+            <li class="hover:underline"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="md:pr-12" role="region" aria-labelledby="my-account-heading">
+        <h2 id="my-account-heading" class="font-bold pb-4 text-lg text-font-main-color">My account</h2>
+        <ul class="[&>li]:pb-2 [&>li]:cursor-pointer [&>li]:m-auto [&>li]:w-fit 
+            md:[&>li]:m-0">
+            <li class="hover:underline"><a href="#">My Wish List</a></li>
+            <li class="hover:underline"><a href="#">My Orders</a></li>
+            <li class="hover:underline"><a href="#">Account settings</a></li>
+        </ul>
+    </div>
+
+</nav>

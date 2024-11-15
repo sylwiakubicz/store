@@ -3,7 +3,10 @@
     aria-labelledby="section-heading">
     <!-- Dekoracyjne tło -->
     <div 
-        class="absolute -top-[32px] -left-[100px] text-[160px] font-[900] tracking-tighter text-custom-blue opacity-5 uppercase z-[-1]"
+        class="hidden md:block absolute -left-[100px] font-[900] tracking-tighter text-custom-blue opacity-5 uppercase z-[-1] text-nowrap overflow-hidden
+        md:text-[120px] md:-top-[12px] 
+        lg:text-[140px] lg:-top-[22px] 
+        xl:text-[160px] xl:-top-[32px]"
         aria-hidden="true">
         {{ title.endsWith('!') ? title.slice(0,-1) : title }}
     </div>
@@ -11,7 +14,7 @@
     <!-- Główny nagłówek -->
     <h2 
         id="section-heading"
-        class="text-custom-blue text-3xl font-bold flex items-center"
+        class="text-custom-blue text-[26px] font-bold flex items-center lg:text-[28px] xl:text-3xl 2xl:text-4xl"
         role="heading" 
         aria-level="2">
         {{ title }}

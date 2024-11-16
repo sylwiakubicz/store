@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { Product } from '../../interfaces/product.interface';
+import { Product } from '../../../interfaces/product.interface';
 import { CommonModule } from '@angular/common';
-import { StarIconComponent } from '../icons/star-icon/star-icon.component';
 import { NgOptimizedImage } from '@angular/common';
+import { StarIconComponent } from '../../icons/star-icon/star-icon.component';
+
 @Component({
     selector: 'app-product',
     standalone: true,

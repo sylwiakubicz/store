@@ -1,10 +1,10 @@
 import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Subject, takeUntil } from 'rxjs';
-import {HexagonComponent} from '../../icons/hexagon/hexagon.component'
+import { HexagonComponent } from '../../../icons/hexagon/hexagon.component';    
 import { CommonModule } from '@angular/common';
 import { OfferIconsComponent } from '../offer-icons/offer-icons.component';
-import { Category } from "../types/category.type";
+import { Category } from '../types/category.type';
 
 @Component({
     selector: 'app-offer-category-card',

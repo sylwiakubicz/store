@@ -3,6 +3,7 @@ import { HeaderWrapperComponent } from '../header/header-wrapper/header-wrapper.
 import { FooterWrapperComponent } from '../footer/footer-wrapper/footer-wrapper.component';
 import { ProductListComponent } from '../product-list/product-list.component';
 import { SectionTitleComponent } from '../section-title/section-title.component';
+import { BannerComponent } from '../banner/banner.component';
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -10,7 +11,8 @@ import { SectionTitleComponent } from '../section-title/section-title.component'
     HeaderWrapperComponent,
     FooterWrapperComponent,
     ProductListComponent,
-    SectionTitleComponent
+    SectionTitleComponent,
+    BannerComponent
   ],
   templateUrl: './home-page.component.html',
   styles: ``

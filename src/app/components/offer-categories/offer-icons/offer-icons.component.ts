@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
   template: `
         <svg [ngSwitch]="name" 
               [class]="class"
-              class="-rotate-[30deg] absolute top-7"
+              class="-rotate-[30deg] absolute top-3.5 sm:top-5 lg:top-6 2xl:top-7"
               xmlns="http://www.w3.org/2000/svg" 
               viewBox="0 0 24 24"
               fill="currentColor">

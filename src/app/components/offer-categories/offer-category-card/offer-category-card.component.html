@@ -3,14 +3,14 @@
     [attr.aria-label]="category.title">
     
     <!-- Hexagon icon container -->
-    <div class="mb-6 relative">
+    <div class="mb-8 relative">
         <!-- Hexagon background -->
-        <app-hexagon [color]="category.hexagonColor" [width]="80" [height]="140" class="relative">
+        <app-hexagon [color]="category.hexagonColor" [width]="width" [height]="height" class="relative">
             <!-- Icon container -->
             <div [class]="'relative z-10 flex items-center justify-center text-white'">
                 <app-offer-icons 
                     [name]="category.icon"
-                    class="w-20 h-20"
+                    class="w-10 h-10 sm:w-12 sm:h-12 lg:w-16 lg:h-16 xl:w-20 xl:h-20"
                     aria-hidden="true"
                 />
             </div>
@@ -19,19 +19,29 @@
 
     <!-- Content -->
     <div>
-        <p class="font-semibold 2xl:text-base uppercase"
+        <p class="font-semibold mb-2 uppercase 
+            text-xs leading-3 
+            xl:text-sm xl:leading-[14px] 
+            2xl:text-base 2xl:leading-4"
             [class]="'text-' + category.color">
             {{category.subtitle}}
         </p>
-        <h2 class="2xl:text-4xl font-extrabold mb-4"
+        <h2 class="mb-3 font-extrabold 
+                    text-2xl leading-6 
+                    lg:text-[26px] lg:leading-[26px] 
+                    xl:text-3xl xl:leading-[30px] 
+                    2xl:text-4xl 2xl:leading-9 2xl:mb-4"
             [class]="'text-' + category.color">
             {{category.title}}
         </h2>
         <a href="#" 
-            class="font-medium flex items-center justify-center 2xl:text-base uppercase"
+            class="font-medium flex items-center justify-center uppercase
+                    text-xs leading-3 
+                    xl:text-sm xl:leading-[14px] 
+                    2xl:text-base 2xl:leading-4"
             [class]="'text-' + category.color">
             <span class="group-hover:underline">{{category.ctaText}}</span>
-            <span class="ml-2 transition-transform group-hover:translate-x-1 text-4xl" aria-hidden="true">→</span>
+            <span class="ml-2 transition-transform group-hover:translate-x-1 text-2xl leading-6 xl:text-3xl xl:leading-[30px] 2xl:text-4xl 2xl:leading-9" aria-hidden="true">→</span>
         </a>
     </div>
 </article>

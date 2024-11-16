@@ -1,0 +1,37 @@
+<article 
+    class="flex flex-col items-center text-center group"
+    [attr.aria-label]="category.title">
+    
+    <!-- Hexagon icon container -->
+    <div class="mb-6 relative">
+        <!-- Hexagon background -->
+        <app-hexagon [color]="category.hexagonColor" [width]="80" [height]="140" class="relative">
+            <!-- Icon container -->
+            <div [class]="'relative z-10 flex items-center justify-center text-white'">
+                <app-offer-icons 
+                    [name]="category.icon"
+                    class="w-20 h-20"
+                    aria-hidden="true"
+                />
+            </div>
+        </app-hexagon>
+    </div>
+
+    <!-- Content -->
+    <div>
+        <p class="font-semibold 2xl:text-base uppercase"
+            [class]="'text-' + category.color">
+            {{category.subtitle}}
+        </p>
+        <h2 class="2xl:text-4xl font-extrabold mb-4"
+            [class]="'text-' + category.color">
+            {{category.title}}
+        </h2>
+        <a href="#" 
+            class="font-medium flex items-center justify-center 2xl:text-base uppercase"
+            [class]="'text-' + category.color">
+            <span class="group-hover:underline">{{category.ctaText}}</span>
+            <span class="ml-2 transition-transform group-hover:translate-x-1 text-4xl" aria-hidden="true">→</span>
+        </a>
+    </div>
+</article>

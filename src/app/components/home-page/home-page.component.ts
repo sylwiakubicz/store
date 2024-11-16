@@ -4,6 +4,7 @@ import { FooterWrapperComponent } from '../footer/footer-wrapper/footer-wrapper.
 import { ProductListComponent } from '../product-list/product-list.component';
 import { SectionTitleComponent } from '../section-title/section-title.component';
 import { BannerComponent } from '../banner/banner.component';
+import { OfferCategoriesComponent } from '../offer-categories/offer-categories.component';
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -12,7 +13,8 @@ import { BannerComponent } from '../banner/banner.component';
     FooterWrapperComponent,
     ProductListComponent,
     SectionTitleComponent,
-    BannerComponent
+    BannerComponent,
+    OfferCategoriesComponent,
   ],
   templateUrl: './home-page.component.html',
   styles: ``

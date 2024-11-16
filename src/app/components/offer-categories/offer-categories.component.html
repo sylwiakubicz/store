@@ -1,0 +1,11 @@
+<section 
+    class="w-full max-w-[1400px] mx-auto px-4 py-12" 
+    aria-label="Kategorie ofert">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        @for (category of categories; track category.type) {
+            <app-offer-category-card 
+                [category]="category"
+            />
+        }
+    </div>
+</section> 

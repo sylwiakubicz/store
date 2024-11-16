@@ -20,7 +20,7 @@ export class OfferCategoryCardComponent implements OnInit, OnDestroy {
     @Input({ required: true }) category!: Category;
     
     width: number = 50;
-    height: number = 110;
+    height: number = 90;
     private destroy$ = new Subject<void>();
 
     constructor(private breakpointObserver: BreakpointObserver) {}

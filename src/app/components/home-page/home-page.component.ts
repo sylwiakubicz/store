@@ -5,6 +5,8 @@ import { ProductListComponent } from '../product-list/product-list.component';
 import { SectionTitleComponent } from '../section-title/section-title.component';
 import { BannerComponent } from '../banner/banner.component';
 import { OfferCategoriesComponent } from '../offer-categories/offer-categories.component';
+import { AdvertiserBannerComponent } from '../advertiser-banner/advertiser-banner.component';
+
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -15,6 +17,7 @@ import { OfferCategoriesComponent } from '../offer-categories/offer-categories.c
     SectionTitleComponent,
     BannerComponent,
     OfferCategoriesComponent,
+    AdvertiserBannerComponent
   ],
   templateUrl: './home-page.component.html',
   styles: ``

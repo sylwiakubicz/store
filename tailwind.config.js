@@ -21,6 +21,7 @@ module.exports = {
       'green-hover': 'var(--green-hover)',
       'custom-orange': 'var(--custom-orange)',
       'custom-blue': 'var(--custom-blue)',
+      'custom-blue-light': 'var(--custom-blue-light)',
       'custom-red': 'var(--custom-red)',
       'pine-green': 'var(--pine-green)',
     },  

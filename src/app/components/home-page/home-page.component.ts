@@ -7,7 +7,7 @@ import { BannerComponent } from '../banner/banner.component';
 import { OfferCategoriesComponent } from './offer-categories/offer-categories.component';
 import { AdvertiserBannerComponent } from '../advertiser-banner/advertiser-banner.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
-
+import { HomeAddressComponent } from './home-address/home-address.component';
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -19,7 +19,8 @@ import { HomeAboutComponent } from './home-about/home-about.component';
     BannerComponent,
     OfferCategoriesComponent,
     AdvertiserBannerComponent,
-    HomeAboutComponent
+    HomeAboutComponent,
+    HomeAddressComponent
   ],
   templateUrl: './home-page.component.html',
   styles: ``

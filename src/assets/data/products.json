@@ -1,0 +1,1911 @@
+{
+    "products": [
+        {
+            "id": "BG001",
+            "name": "Everdell",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "publisher": "Rebel Studio",
+            "category": "Worker Placement",
+            "subCategories": [
+                "Fantasy",
+                "Strategy",
+                "Family Games"
+            ],
+            "price": 49.99,
+            "stockQuantity": 15,
+            "dateAdded": "2024-01-15",
+            "images": {
+                "main": "everdell-main.jpg",
+                "secondary": "everdell-components.jpg",
+                "detail": "everdell-gameplay.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "EVD-2024-001",
+            "specifications": {
+                "playTime": "40-80 min",
+                "recommendedAge": "14+",
+                "playerCount": "1-4",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.8 kg"
+            },
+            "relatedProducts": [
+                "BG002",
+                "BG003",
+                "BG015"
+            ]
+        },
+        {
+            "id": "BG002",
+            "name": "Gloomhaven",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.",
+            "publisher": "Cephalofair Games",
+            "category": "Campaign Games",
+            "subCategories": [
+                "Adventure",
+                "Strategy",
+                "Cooperative"
+            ],
+            "price": 139.99,
+            "stockQuantity": 5,
+            "dateAdded": "2024-01-16",
+            "images": {
+                "main": "gloomhaven-main.jpg",
+                "secondary": "gloomhaven-components.jpg",
+                "detail": "gloomhaven-cards.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "GLH-2024-002",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "14+",
+                "playerCount": "1-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "40x30x20 cm",
+                "weight": "10 kg"
+            },
+            "relatedProducts": [
+                "BG001",
+                "BG023",
+                "BG045"
+            ]
+        },
+        {
+            "id": "BG003",
+            "name": "Wingspan",
+            "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+            "publisher": "Stonemaier Games",
+            "category": "Engine Building",
+            "subCategories": [
+                "Card Games",
+                "Educational",
+                "Family Games"
+            ],
+            "price": 54.99,
+            "stockQuantity": 20,
+            "dateAdded": "2024-01-17",
+            "images": {
+                "main": "wingspan-main.jpg",
+                "secondary": "wingspan-birds.jpg",
+                "detail": "wingspan-board.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "WSP-2024-003",
+            "specifications": {
+                "playTime": "40-70 min",
+                "recommendedAge": "10+",
+                "playerCount": "1-5",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "30x23x7 cm",
+                "weight": "1.5 kg"
+            },
+            "relatedProducts": [
+                "BG001",
+                "BG012",
+                "BG024"
+            ]
+        },
+        {
+            "id": "BG004",
+            "name": "Azul",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc.",
+            "publisher": "Next Move Games",
+            "category": "Abstract",
+            "subCategories": [
+                "Family Games",
+                "Strategy",
+                "Tile Placement"
+            ],
+            "price": 34.99,
+            "stockQuantity": 30,
+            "dateAdded": "2024-01-18",
+            "images": {
+                "main": "azul-main.jpg",
+                "secondary": "azul-tiles.jpg",
+                "detail": "azul-gameplay.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "AZL-2024-004",
+            "specifications": {
+                "playTime": "30-45 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German",
+                    "French"
+                ],
+                "dimensions": "25x25x5 cm",
+                "weight": "1.2 kg"
+            },
+            "relatedProducts": [
+                "BG014",
+                "BG025",
+                "BG036"
+            ]
+        },
+        {
+            "id": "BG005",
+            "name": "Terraforming Mars",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "publisher": "FryxGames",
+            "category": "Strategy",
+            "subCategories": [
+                "Science Fiction",
+                "Engine Building",
+                "Economic"
+            ],
+            "price": 59.99,
+            "stockQuantity": 12,
+            "dateAdded": "2024-01-19",
+            "images": {
+                "main": "terraforming-mars-main.jpg",
+                "secondary": "terraforming-mars-board.jpg",
+                "detail": "terraforming-mars-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "TFM-2024-005",
+            "specifications": {
+                "playTime": "120-180 min",
+                "recommendedAge": "12+",
+                "playerCount": "1-5",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.2 kg"
+            },
+            "relatedProducts": [
+                "BG002",
+                "BG015",
+                "BG028"
+            ]
+        },
+        {
+            "id": "BG006",
+            "name": "Pandemic Legacy: Season 1",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "publisher": "Z-Man Games",
+            "category": "Legacy Games",
+            "subCategories": [
+                "Cooperative",
+                "Strategy",
+                "Campaign Games"
+            ],
+            "price": 79.99,
+            "stockQuantity": 8,
+            "dateAdded": "2024-01-20",
+            "images": {
+                "main": "pandemic-legacy-main.jpg",
+                "secondary": "pandemic-legacy-components.jpg",
+                "detail": "pandemic-legacy-cards.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "PLS-2024-006",
+            "specifications": {
+                "playTime": "60-75 min",
+                "recommendedAge": "14+",
+                "playerCount": "2-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.5 kg"
+            },
+            "relatedProducts": [
+                "BG016",
+                "BG027",
+                "BG038"
+            ]
+        },
+        {
+            "id": "BG007",
+            "name": "7 Wonders Duel",
+            "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+            "publisher": "Repos Production",
+            "category": "Card Games",
+            "subCategories": [
+                "Strategy",
+                "Two Players",
+                "Civilization"
+            ],
+            "price": 24.99,
+            "stockQuantity": 25,
+            "dateAdded": "2024-01-21",
+            "images": {
+                "main": "7wonders-duel-main.jpg",
+                "secondary": "7wonders-duel-cards.jpg",
+                "detail": "7wonders-duel-tokens.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "7WD-2024-007",
+            "specifications": {
+                "playTime": "30 min",
+                "recommendedAge": "10+",
+                "playerCount": "2",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French",
+                    "German"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.6 kg"
+            },
+            "relatedProducts": [
+                "BG003",
+                "BG018",
+                "BG029"
+            ]
+        },
+        {
+            "id": "BG008",
+            "name": "Brass: Birmingham",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
+            "publisher": "Roxley Games",
+            "category": "Economic",
+            "subCategories": [
+                "Strategy",
+                "Industrial",
+                "Historical"
+            ],
+            "price": 69.99,
+            "stockQuantity": 10,
+            "dateAdded": "2024-01-22",
+            "images": {
+                "main": "brass-birmingham-main.jpg",
+                "secondary": "brass-birmingham-board.jpg",
+                "detail": "brass-birmingham-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "BBM-2024-008",
+            "specifications": {
+                "playTime": "120-180 min",
+                "recommendedAge": "14+",
+                "playerCount": "2-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.8 kg"
+            },
+            "relatedProducts": [
+                "BG005",
+                "BG019",
+                "BG030"
+            ]
+        },
+        {
+            "id": "BG009",
+            "name": "Splendor",
+            "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "publisher": "Space Cowboys",
+            "category": "Engine Building",
+            "subCategories": [
+                "Family Games",
+                "Card Games",
+                "Renaissance"
+            ],
+            "price": 39.99,
+            "stockQuantity": 18,
+            "dateAdded": "2024-01-23",
+            "images": {
+                "main": "splendor-main.jpg",
+                "secondary": "splendor-tokens.jpg",
+                "detail": "splendor-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SPL-2024-009",
+            "specifications": {
+                "playTime": "30 min",
+                "recommendedAge": "10+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.9 kg"
+            },
+            "relatedProducts": [
+                "BG004",
+                "BG020",
+                "BG031"
+            ]
+        },
+        {
+            "id": "BG010",
+            "name": "Root",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+            "publisher": "Leder Games",
+            "category": "Area Control",
+            "subCategories": [
+                "Strategy",
+                "Asymmetric",
+                "Adventure"
+            ],
+            "price": 64.99,
+            "stockQuantity": 15,
+            "dateAdded": "2024-01-24",
+            "images": {
+                "main": "root-main.jpg",
+                "secondary": "root-board.jpg",
+                "detail": "root-meeples.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "ROT-2024-010",
+            "specifications": {
+                "playTime": "60-90 min",
+                "recommendedAge": "10+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.0 kg"
+            },
+            "relatedProducts": [
+                "BG021",
+                "BG032",
+                "BG043"
+            ]
+        },
+        {
+            "id": "BG011",
+            "name": "Spirit Island",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "publisher": "Greater Than Games",
+            "category": "Cooperative",
+            "subCategories": [
+                "Strategy",
+                "Fantasy",
+                "Area Control"
+            ],
+            "price": 74.99,
+            "stockQuantity": 7,
+            "dateAdded": "2024-01-25",
+            "images": {
+                "main": "spirit-island-main.jpg",
+                "secondary": "spirit-island-board.jpg",
+                "detail": "spirit-island-spirits.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "SPI-2024-011",
+            "specifications": {
+                "playTime": "90-120 min",
+                "recommendedAge": "13+",
+                "playerCount": "1-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.7 kg"
+            },
+            "relatedProducts": [
+                "BG002",
+                "BG006",
+                "BG044"
+            ]
+        },
+        {
+            "id": "BG012",
+            "name": "Ticket to Ride: Europe",
+            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "publisher": "Days of Wonder",
+            "category": "Family Games",
+            "subCategories": [
+                "Strategy",
+                "Route Building",
+                "Historical"
+            ],
+            "price": 44.99,
+            "stockQuantity": 22,
+            "dateAdded": "2024-01-26",
+            "images": {
+                "main": "ttr-europe-main.jpg",
+                "secondary": "ttr-europe-board.jpg",
+                "detail": "ttr-europe-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "TTR-2024-012",
+            "specifications": {
+                "playTime": "30-60 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-5",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German",
+                    "French"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.4 kg"
+            },
+            "relatedProducts": [
+                "BG004",
+                "BG009",
+                "BG033"
+            ]
+        },
+        {
+            "id": "BG013",
+            "name": "Scythe",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "publisher": "Stonemaier Games",
+            "category": "Area Control",
+            "subCategories": [
+                "Strategy",
+                "Alternative History",
+                "Economic"
+            ],
+            "price": 84.99,
+            "stockQuantity": 13,
+            "dateAdded": "2024-01-27",
+            "images": {
+                "main": "scythe-main.jpg",
+                "secondary": "scythe-board.jpg",
+                "detail": "scythe-miniatures.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SCY-2024-013",
+            "specifications": {
+                "playTime": "90-115 min",
+                "recommendedAge": "14+",
+                "playerCount": "1-5",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x10 cm",
+                "weight": "3.2 kg"
+            },
+            "relatedProducts": [
+                "BG005",
+                "BG008",
+                "BG034"
+            ]
+        },
+        {
+            "id": "BG014",
+            "name": "Sagrada",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "publisher": "Floodgate Games",
+            "category": "Abstract",
+            "subCategories": [
+                "Dice Games",
+                "Pattern Building",
+                "Family Games"
+            ],
+            "price": 39.99,
+            "stockQuantity": 16,
+            "dateAdded": "2024-01-28",
+            "images": {
+                "main": "sagrada-main.jpg",
+                "secondary": "sagrada-dice.jpg",
+                "detail": "sagrada-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SAG-2024-014",
+            "specifications": {
+                "playTime": "30-45 min",
+                "recommendedAge": "10+",
+                "playerCount": "1-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "25x25x7 cm",
+                "weight": "1.1 kg"
+            },
+            "relatedProducts": [
+                "BG004",
+                "BG009",
+                "BG035"
+            ]
+        },
+        {
+            "id": "BG015",
+            "name": "Great Western Trail",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.",
+            "publisher": "Eggertspiele",
+            "category": "Strategy",
+            "subCategories": [
+                "Economic",
+                "Deck Building",
+                "Historical"
+            ],
+            "price": 69.99,
+            "stockQuantity": 9,
+            "dateAdded": "2024-01-29",
+            "images": {
+                "main": "gwt-main.jpg",
+                "secondary": "gwt-board.jpg",
+                "detail": "gwt-cards.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "GWT-2024-015",
+            "specifications": {
+                "playTime": "75-150 min",
+                "recommendedAge": "12+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "German"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.5 kg"
+            },
+            "relatedProducts": [
+                "BG008",
+                "BG013",
+                "BG036"
+            ]
+        },
+        {
+            "id": "BG016",
+            "name": "Codenames",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+            "publisher": "Czech Games Edition",
+            "category": "Party Games",
+            "subCategories": [
+                "Word Games",
+                "Deduction",
+                "Team Play"
+            ],
+            "price": 19.99,
+            "stockQuantity": 35,
+            "dateAdded": "2024-01-30",
+            "images": {
+                "main": "codenames-main.jpg",
+                "secondary": "codenames-cards.jpg",
+                "detail": "codenames-gameplay.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "CDN-2024-016",
+            "specifications": {
+                "playTime": "15-30 min",
+                "recommendedAge": "14+",
+                "playerCount": "2-8",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German",
+                    "French"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.5 kg"
+            },
+            "relatedProducts": [
+                "BG026",
+                "BG037",
+                "BG048"
+            ]
+        },
+        {
+            "id": "BG017",
+            "name": "Viticulture Essential Edition",
+            "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "publisher": "Stonemaier Games",
+            "category": "Worker Placement",
+            "subCategories": [
+                "Economic",
+                "Strategy",
+                "Medieval"
+            ],
+            "price": 54.99,
+            "stockQuantity": 14,
+            "dateAdded": "2024-01-31",
+            "images": {
+                "main": "viticulture-main.jpg",
+                "secondary": "viticulture-board.jpg",
+                "detail": "viticulture-components.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "VIT-2024-017",
+            "specifications": {
+                "playTime": "45-90 min",
+                "recommendedAge": "13+",
+                "playerCount": "1-6",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x23x7 cm",
+                "weight": "1.8 kg"
+            },
+            "relatedProducts": [
+                "BG001",
+                "BG015",
+                "BG038"
+            ]
+        },
+        {
+            "id": "BG018",
+            "name": "Catan",
+            "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.",
+            "publisher": "KOSMOS",
+            "category": "Family Games",
+            "subCategories": [
+                "Strategy",
+                "Resource Management",
+                "Negotiation"
+            ],
+            "price": 44.99,
+            "stockQuantity": 28,
+            "dateAdded": "2024-02-01",
+            "images": {
+                "main": "catan-main.jpg",
+                "secondary": "catan-board.jpg",
+                "detail": "catan-components.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "CTN-2024-018",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "10+",
+                "playerCount": "3-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.3 kg"
+            },
+            "relatedProducts": [
+                "BG012",
+                "BG039",
+                "BG047"
+            ]
+        },
+        {
+            "id": "BG019",
+            "name": "Nemesis",
+            "description": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.",
+            "publisher": "Awaken Realms",
+            "category": "Thematic",
+            "subCategories": [
+                "Horror",
+                "Science Fiction",
+                "Survival"
+            ],
+            "price": 129.99,
+            "stockQuantity": 6,
+            "dateAdded": "2024-02-02",
+            "images": {
+                "main": "nemesis-main.jpg",
+                "secondary": "nemesis-miniatures.jpg",
+                "detail": "nemesis-board.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "NEM-2024-019",
+            "specifications": {
+                "playTime": "90-180 min",
+                "recommendedAge": "16+",
+                "playerCount": "1-5",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x15 cm",
+                "weight": "4.5 kg"
+            },
+            "relatedProducts": [
+                "BG002",
+                "BG013",
+                "BG040"
+            ]
+        },
+        {
+            "id": "BG020",
+            "name": "Patchwork",
+            "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi.",
+            "publisher": "Lookout Games",
+            "category": "Abstract",
+            "subCategories": [
+                "Two Players",
+                "Pattern Building",
+                "Family Games"
+            ],
+            "price": 19.99,
+            "stockQuantity": 24,
+            "dateAdded": "2024-02-03",
+            "images": {
+                "main": "patchwork-main.jpg",
+                "secondary": "patchwork-tiles.jpg",
+                "detail": "patchwork-board.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "PTW-2024-020",
+            "specifications": {
+                "playTime": "15-30 min",
+                "recommendedAge": "8+",
+                "playerCount": "2",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.6 kg"
+            },
+            "relatedProducts": [
+                "BG007",
+                "BG014",
+                "BG041"
+            ]
+        },
+        {
+            "id": "BG021",
+            "name": "Ark Nova",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "publisher": "Feuerland Spiele",
+            "category": "Strategy",
+            "subCategories": [
+                "Economic",
+                "Card Drafting",
+                "Modern"
+            ],
+            "price": 69.99,
+            "stockQuantity": 11,
+            "dateAdded": "2024-02-04",
+            "images": {
+                "main": "ark-nova-main.jpg",
+                "secondary": "ark-nova-board.jpg",
+                "detail": "ark-nova-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "ARK-2024-021",
+            "specifications": {
+                "playTime": "90-150 min",
+                "recommendedAge": "14+",
+                "playerCount": "1-4",
+                "language": [
+                    "English",
+                    "German"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.3 kg"
+            },
+            "relatedProducts": [
+                "BG005",
+                "BG015",
+                "BG042"
+            ]
+        },
+        {
+            "id": "BG022",
+            "name": "King of Tokyo",
+            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "publisher": "IELLO",
+            "category": "Dice Games",
+            "subCategories": [
+                "Family Games",
+                "Fighting",
+                "Party Games"
+            ],
+            "price": 29.99,
+            "stockQuantity": 20,
+            "dateAdded": "2024-02-05",
+            "images": {
+                "main": "king-of-tokyo-main.jpg",
+                "secondary": "king-of-tokyo-cards.jpg",
+                "detail": "king-of-tokyo-dice.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "KOT-2024-022",
+            "specifications": {
+                "playTime": "30 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-6",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French"
+                ],
+                "dimensions": "25x25x7 cm",
+                "weight": "0.9 kg"
+            },
+            "relatedProducts": [
+                "BG016",
+                "BG043",
+                "BG049"
+            ]
+        },
+        {
+            "id": "BG023",
+            "name": "Lost Ruins of Arnak",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "publisher": "Czech Games Edition",
+            "category": "Deck Building",
+            "subCategories": [
+                "Worker Placement",
+                "Adventure",
+                "Exploration"
+            ],
+            "price": 59.99,
+            "stockQuantity": 15,
+            "dateAdded": "2024-02-06",
+            "images": {
+                "main": "arnak-main.jpg",
+                "secondary": "arnak-board.jpg",
+                "detail": "arnak-components.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "LRA-2024-023",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "12+",
+                "playerCount": "1-4",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.1 kg"
+            },
+            "relatedProducts": [
+                "BG001",
+                "BG017",
+                "BG044"
+            ]
+        },
+        {
+            "id": "BG024",
+            "name": "Dixit",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "publisher": "Libellud",
+            "category": "Party Games",
+            "subCategories": [
+                "Family Games",
+                "Storytelling",
+                "Art"
+            ],
+            "price": 34.99,
+            "stockQuantity": 25,
+            "dateAdded": "2024-02-07",
+            "images": {
+                "main": "dixit-main.jpg",
+                "secondary": "dixit-cards.jpg",
+                "detail": "dixit-board.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "DIX-2024-024",
+            "specifications": {
+                "playTime": "30 min",
+                "recommendedAge": "8+",
+                "playerCount": "3-6",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French"
+                ],
+                "dimensions": "23x23x5 cm",
+                "weight": "0.7 kg"
+            },
+            "relatedProducts": [
+                "BG016",
+                "BG045",
+                "BG050"
+            ]
+        },
+        {
+            "id": "BG025",
+            "name": "Dune: Imperium",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+            "publisher": "Dire Wolf",
+            "category": "Deck Building",
+            "subCategories": [
+                "Worker Placement",
+                "Science Fiction",
+                "Strategy"
+            ],
+            "price": 49.99,
+            "stockQuantity": 18,
+            "dateAdded": "2024-02-08",
+            "images": {
+                "main": "dune-imperium-main.jpg",
+                "secondary": "dune-imperium-board.jpg",
+                "detail": "dune-imperium-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "DUN-2024-025",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "14+",
+                "playerCount": "1-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.6 kg"
+            },
+            "relatedProducts": [
+                "BG013",
+                "BG023",
+                "BG046"
+            ]
+        },
+        {
+            "id": "BG026",
+            "name": "Mysterium",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+            "publisher": "Libellud",
+            "category": "Cooperative",
+            "subCategories": [
+                "Deduction",
+                "Party Games",
+                "Mystery"
+            ],
+            "price": 44.99,
+            "stockQuantity": 12,
+            "dateAdded": "2024-02-09",
+            "images": {
+                "main": "mysterium-main.jpg",
+                "secondary": "mysterium-cards.jpg",
+                "detail": "mysterium-board.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "MYS-2024-026",
+            "specifications": {
+                "playTime": "42 min",
+                "recommendedAge": "10+",
+                "playerCount": "2-7",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.7 kg"
+            },
+            "relatedProducts": [
+                "BG006",
+                "BG024",
+                "BG047"
+            ]
+        },
+        {
+            "id": "BG027",
+            "name": "Cascadia",
+            "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+            "publisher": "Flatout Games",
+            "category": "Pattern Building",
+            "subCategories": [
+                "Family Games",
+                "Nature",
+                "Tile Placement"
+            ],
+            "price": 39.99,
+            "stockQuantity": 22,
+            "dateAdded": "2024-02-10",
+            "images": {
+                "main": "cascadia-main.jpg",
+                "secondary": "cascadia-tiles.jpg",
+                "detail": "cascadia-tokens.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "CAS-2024-027",
+            "specifications": {
+                "playTime": "30-45 min",
+                "recommendedAge": "10+",
+                "playerCount": "1-4",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "25x25x7 cm",
+                "weight": "1.2 kg"
+            },
+            "relatedProducts": [
+                "BG003",
+                "BG014",
+                "BG048"
+            ]
+        },
+        {
+            "id": "BG028",
+            "name": "Blood Rage",
+            "description": "Et harum quidem rerum facilis est et expedita distinctio.",
+            "publisher": "CMON",
+            "category": "Area Control",
+            "subCategories": [
+                "Miniatures",
+                "Viking",
+                "Combat"
+            ],
+            "price": 79.99,
+            "stockQuantity": 8,
+            "dateAdded": "2024-02-11",
+            "images": {
+                "main": "blood-rage-main.jpg",
+                "secondary": "blood-rage-miniatures.jpg",
+                "detail": "blood-rage-cards.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "BLR-2024-028",
+            "specifications": {
+                "playTime": "60-90 min",
+                "recommendedAge": "14+",
+                "playerCount": "2-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x10 cm",
+                "weight": "3.5 kg"
+            },
+            "relatedProducts": [
+                "BG010",
+                "BG019",
+                "BG049"
+            ]
+        },
+        {
+            "id": "BG029",
+            "name": "Pandemic",
+            "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.",
+            "publisher": "Z-Man Games",
+            "category": "Cooperative",
+            "subCategories": [
+                "Strategy",
+                "Medical",
+                "Family Games"
+            ],
+            "price": 39.99,
+            "stockQuantity": 20,
+            "dateAdded": "2024-02-12",
+            "images": {
+                "main": "pandemic-main.jpg",
+                "secondary": "pandemic-board.jpg",
+                "detail": "pandemic-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "PAN-2024-029",
+            "specifications": {
+                "playTime": "45 min",
+                "recommendedAge": "10+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.4 kg"
+            },
+            "relatedProducts": [
+                "BG006",
+                "BG026",
+                "BG050"
+            ]
+        },
+        {
+            "id": "BG030",
+            "name": "Small World",
+            "description": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.",
+            "publisher": "Days of Wonder",
+            "category": "Area Control",
+            "subCategories": [
+                "Fantasy",
+                "Strategy",
+                "Family Games"
+            ],
+            "price": 49.99,
+            "stockQuantity": 16,
+            "dateAdded": "2024-02-13",
+            "images": {
+                "main": "small-world-main.jpg",
+                "secondary": "small-world-board.jpg",
+                "detail": "small-world-tokens.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SMW-2024-030",
+            "specifications": {
+                "playTime": "40-80 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-5",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.8 kg"
+            },
+            "relatedProducts": [
+                "BG010",
+                "BG028",
+                "BG041"
+            ]
+        },
+        {
+            "id": "BG031",
+            "name": "Twilight Imperium: Fourth Edition",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+            "publisher": "Fantasy Flight Games",
+            "category": "Strategy",
+            "subCategories": [
+                "Science Fiction",
+                "Epic",
+                "4X"
+            ],
+            "price": 149.99,
+            "stockQuantity": 5,
+            "dateAdded": "2024-02-14",
+            "images": {
+                "main": "twilight-imperium-main.jpg",
+                "secondary": "twilight-imperium-board.jpg",
+                "detail": "twilight-imperium-ships.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "TWI-2024-031",
+            "specifications": {
+                "playTime": "240-480 min",
+                "recommendedAge": "14+",
+                "playerCount": "3-6",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "40x40x15 cm",
+                "weight": "7.5 kg"
+            },
+            "relatedProducts": [
+                "BG013",
+                "BG019",
+                "BG025"
+            ]
+        },
+        {
+            "id": "BG032",
+            "name": "Carcassonne: Big Box",
+            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+            "publisher": "Z-Man Games",
+            "category": "Tile Placement",
+            "subCategories": [
+                "Family Games",
+                "Medieval",
+                "Strategy"
+            ],
+            "price": 79.99,
+            "stockQuantity": 12,
+            "dateAdded": "2024-02-15",
+            "images": {
+                "main": "carcassonne-big-main.jpg",
+                "secondary": "carcassonne-big-tiles.jpg",
+                "detail": "carcassonne-big-meeples.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "CAR-2024-032",
+            "specifications": {
+                "playTime": "30-90 min",
+                "recommendedAge": "7+",
+                "playerCount": "2-6",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "30x30x10 cm",
+                "weight": "2.5 kg"
+            },
+            "relatedProducts": [
+                "BG018",
+                "BG027",
+                "BG042"
+            ]
+        },
+        {
+            "id": "BG033",
+            "name": "Dominion",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+            "publisher": "Rio Grande Games",
+            "category": "Deck Building",
+            "subCategories": [
+                "Card Games",
+                "Medieval",
+                "Strategy"
+            ],
+            "price": 44.99,
+            "stockQuantity": 18,
+            "dateAdded": "2024-02-16",
+            "images": {
+                "main": "dominion-main.jpg",
+                "secondary": "dominion-cards.jpg",
+                "detail": "dominion-gameplay.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "DOM-2024-033",
+            "specifications": {
+                "playTime": "30 min",
+                "recommendedAge": "13+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.3 kg"
+            },
+            "relatedProducts": [
+                "BG023",
+                "BG025",
+                "BG043"
+            ]
+        },
+        {
+            "id": "BG034",
+            "name": "Betrayal at House on the Hill",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+            "publisher": "Avalon Hill",
+            "category": "Adventure",
+            "subCategories": [
+                "Horror",
+                "Exploration",
+                "Cooperative"
+            ],
+            "price": 49.99,
+            "stockQuantity": 14,
+            "dateAdded": "2024-02-17",
+            "images": {
+                "main": "betrayal-main.jpg",
+                "secondary": "betrayal-tiles.jpg",
+                "detail": "betrayal-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "BTR-2024-034",
+            "specifications": {
+                "playTime": "60 min",
+                "recommendedAge": "12+",
+                "playerCount": "3-6",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.6 kg"
+            },
+            "relatedProducts": [
+                "BG019",
+                "BG026",
+                "BG044"
+            ]
+        },
+        {
+            "id": "BG035",
+            "name": "Santorini",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
+            "publisher": "Spin Master",
+            "category": "Abstract",
+            "subCategories": [
+                "Family Games",
+                "Strategy",
+                "Mythology"
+            ],
+            "price": 29.99,
+            "stockQuantity": 20,
+            "dateAdded": "2024-02-18",
+            "images": {
+                "main": "santorini-main.jpg",
+                "secondary": "santorini-board.jpg",
+                "detail": "santorini-pieces.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SAN-2024-035",
+            "specifications": {
+                "playTime": "20 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "French"
+                ],
+                "dimensions": "25x25x7 cm",
+                "weight": "1.1 kg"
+            },
+            "relatedProducts": [
+                "BG004",
+                "BG014",
+                "BG045"
+            ]
+        },
+        {
+            "id": "BG036",
+            "name": "Clank!",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+            "publisher": "Renegade Game Studios",
+            "category": "Deck Building",
+            "subCategories": [
+                "Adventure",
+                "Fantasy",
+                "Push Your Luck"
+            ],
+            "price": 59.99,
+            "stockQuantity": 15,
+            "dateAdded": "2024-02-19",
+            "images": {
+                "main": "clank-main.jpg",
+                "secondary": "clank-board.jpg",
+                "detail": "clank-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "CLK-2024-036",
+            "specifications": {
+                "playTime": "45-90 min",
+                "recommendedAge": "12+",
+                "playerCount": "2-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.9 kg"
+            },
+            "relatedProducts": [
+                "BG023",
+                "BG033",
+                "BG046"
+            ]
+        },
+        {
+            "id": "BG037",
+            "name": "Splendor: Marvel",
+            "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil.",
+            "publisher": "Space Cowboys",
+            "category": "Engine Building",
+            "subCategories": [
+                "Card Games",
+                "Superhero",
+                "Family Games"
+            ],
+            "price": 44.99,
+            "stockQuantity": 17,
+            "dateAdded": "2024-02-20",
+            "images": {
+                "main": "splendor-marvel-main.jpg",
+                "secondary": "splendor-marvel-cards.jpg",
+                "detail": "splendor-marvel-tokens.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SPM-2024-037",
+            "specifications": {
+                "playTime": "30 min",
+                "recommendedAge": "10+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.9 kg"
+            },
+            "relatedProducts": [
+                "BG009",
+                "BG047",
+                "BG050"
+            ]
+        },
+        {
+            "id": "BG038",
+            "name": "Mansions of Madness",
+            "description": "Et harum quidem rerum facilis est et expedita distinctio.",
+            "publisher": "Fantasy Flight Games",
+            "category": "Adventure",
+            "subCategories": [
+                "Horror",
+                "Cooperative",
+                "App-Driven"
+            ],
+            "price": 109.99,
+            "stockQuantity": 7,
+            "dateAdded": "2024-02-21",
+            "images": {
+                "main": "mansions-main.jpg",
+                "secondary": "mansions-miniatures.jpg",
+                "detail": "mansions-tiles.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "MOM-2024-038",
+            "specifications": {
+                "playTime": "120-180 min",
+                "recommendedAge": "14+",
+                "playerCount": "1-5",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x15 cm",
+                "weight": "4.2 kg"
+            },
+            "relatedProducts": [
+                "BG019",
+                "BG034",
+                "BG048"
+            ]
+        },
+        {
+            "id": "BG039",
+            "name": "Azul: Summer Pavilion",
+            "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit.",
+            "publisher": "Next Move Games",
+            "category": "Abstract",
+            "subCategories": [
+                "Pattern Building",
+                "Family Games",
+                "Strategy"
+            ],
+            "price": 39.99,
+            "stockQuantity": 19,
+            "dateAdded": "2024-02-22",
+            "images": {
+                "main": "azul-summer-main.jpg",
+                "secondary": "azul-summer-tiles.jpg",
+                "detail": "azul-summer-board.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "AZS-2024-039",
+            "specifications": {
+                "playTime": "30-45 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "25x25x7 cm",
+                "weight": "1.3 kg"
+            },
+            "relatedProducts": [
+                "BG004",
+                "BG035",
+                "BG049"
+            ]
+        },
+        {
+            "id": "BG040",
+            "name": "Res Arcana",
+            "description": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.",
+            "publisher": "Sand Castle Games",
+            "category": "Card Games",
+            "subCategories": [
+                "Fantasy",
+                "Engine Building",
+                "Strategy"
+            ],
+            "price": 34.99,
+            "stockQuantity": 13,
+            "dateAdded": "2024-02-23",
+            "images": {
+                "main": "res-arcana-main.jpg",
+                "secondary": "res-arcana-cards.jpg",
+                "detail": "res-arcana-components.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "RES-2024-040",
+            "specifications": {
+                "playTime": "30-60 min",
+                "recommendedAge": "12+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "French"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.8 kg"
+            },
+            "relatedProducts": [
+                "BG017",
+                "BG025",
+                "BG050"
+            ]
+        },
+        {
+            "id": "BG041",
+            "name": "Lords of Waterdeep",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+            "publisher": "Wizards of the Coast",
+            "category": "Worker Placement",
+            "subCategories": [
+                "Fantasy",
+                "Strategy",
+                "Dungeons & Dragons"
+            ],
+            "price": 49.99,
+            "stockQuantity": 16,
+            "dateAdded": "2024-02-24",
+            "images": {
+                "main": "waterdeep-main.jpg",
+                "secondary": "waterdeep-board.jpg",
+                "detail": "waterdeep-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "LOW-2024-041",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "12+",
+                "playerCount": "2-5",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.1 kg"
+            },
+            "relatedProducts": [
+                "BG001",
+                "BG017",
+                "BG023"
+            ]
+        },
+        {
+            "id": "BG042",
+            "name": "Cosmic Encounter",
+            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+            "publisher": "Fantasy Flight Games",
+            "category": "Negotiation",
+            "subCategories": [
+                "Science Fiction",
+                "Strategy",
+                "Social"
+            ],
+            "price": 59.99,
+            "stockQuantity": 9,
+            "dateAdded": "2024-02-25",
+            "images": {
+                "main": "cosmic-main.jpg",
+                "secondary": "cosmic-cards.jpg",
+                "detail": "cosmic-ships.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "COS-2024-042",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "14+",
+                "playerCount": "3-5",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.8 kg"
+            },
+            "relatedProducts": [
+                "BG019",
+                "BG031",
+                "BG040"
+            ]
+        },
+        {
+            "id": "BG043",
+            "name": "Sushi Go Party!",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.",
+            "publisher": "Gamewright",
+            "category": "Card Drafting",
+            "subCategories": [
+                "Family Games",
+                "Party Games",
+                "Food"
+            ],
+            "price": 24.99,
+            "stockQuantity": 28,
+            "dateAdded": "2024-02-26",
+            "images": {
+                "main": "sushi-go-main.jpg",
+                "secondary": "sushi-go-cards.jpg",
+                "detail": "sushi-go-tin.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SGP-2024-043",
+            "specifications": {
+                "playTime": "20-30 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-8",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.5 kg"
+            },
+            "relatedProducts": [
+                "BG016",
+                "BG024",
+                "BG037"
+            ]
+        },
+        {
+            "id": "BG044",
+            "name": "Architects of the West Kingdom",
+            "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.",
+            "publisher": "Garphill Games",
+            "category": "Worker Placement",
+            "subCategories": [
+                "Medieval",
+                "Strategy",
+                "Economic"
+            ],
+            "price": 49.99,
+            "stockQuantity": 14,
+            "dateAdded": "2024-02-27",
+            "images": {
+                "main": "architects-main.jpg",
+                "secondary": "architects-board.jpg",
+                "detail": "architects-components.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "AWK-2024-044",
+            "specifications": {
+                "playTime": "60-80 min",
+                "recommendedAge": "12+",
+                "playerCount": "1-5",
+                "language": [
+                    "English",
+                    "Polish"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.7 kg"
+            },
+            "relatedProducts": [
+                "BG001",
+                "BG017",
+                "BG041"
+            ]
+        },
+        {
+            "id": "BG045",
+            "name": "Century: Spice Road",
+            "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
+            "publisher": "Plan B Games",
+            "category": "Card Games",
+            "subCategories": [
+                "Strategy",
+                "Economic",
+                "Family Games"
+            ],
+            "price": 34.99,
+            "stockQuantity": 21,
+            "dateAdded": "2024-02-28",
+            "images": {
+                "main": "century-main.jpg",
+                "secondary": "century-cards.jpg",
+                "detail": "century-bowls.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "CSR-2024-045",
+            "specifications": {
+                "playTime": "30-45 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-5",
+                "language": [
+                    "English",
+                    "Polish",
+                    "German"
+                ],
+                "dimensions": "20x20x5 cm",
+                "weight": "0.7 kg"
+            },
+            "relatedProducts": [
+                "BG009",
+                "BG033",
+                "BG040"
+            ]
+        },
+        {
+            "id": "BG046",
+            "name": "Unfathomable",
+            "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.",
+            "publisher": "Fantasy Flight Games",
+            "category": "Hidden Traitor",
+            "subCategories": [
+                "Horror",
+                "Cooperative",
+                "Lovecraftian"
+            ],
+            "price": 79.99,
+            "stockQuantity": 8,
+            "dateAdded": "2024-02-29",
+            "images": {
+                "main": "unfathomable-main.jpg",
+                "secondary": "unfathomable-board.jpg",
+                "detail": "unfathomable-cards.jpg"
+            },
+            "status": "low_stock",
+            "productCode": "UNF-2024-046",
+            "specifications": {
+                "playTime": "120-240 min",
+                "recommendedAge": "14+",
+                "playerCount": "3-6",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.9 kg"
+            },
+            "relatedProducts": [
+                "BG019",
+                "BG034",
+                "BG038"
+            ]
+        },
+        {
+            "id": "BG047",
+            "name": "Quacks of Quedlinburg",
+            "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.",
+            "publisher": "North Star Games",
+            "category": "Push Your Luck",
+            "subCategories": [
+                "Family Games",
+                "Medieval",
+                "Bag Building"
+            ],
+            "price": 44.99,
+            "stockQuantity": 17,
+            "dateAdded": "2024-03-01",
+            "images": {
+                "main": "quacks-main.jpg",
+                "secondary": "quacks-tokens.jpg",
+                "detail": "quacks-boards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "QOQ-2024-047",
+            "specifications": {
+                "playTime": "45 min",
+                "recommendedAge": "10+",
+                "playerCount": "2-4",
+                "language": [
+                    "English",
+                    "German"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.4 kg"
+            },
+            "relatedProducts": [
+                "BG022",
+                "BG043",
+                "BG045"
+            ]
+        },
+        {
+            "id": "BG048",
+            "name": "Horrified",
+            "description": "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore.",
+            "publisher": "Ravensburger",
+            "category": "Cooperative",
+            "subCategories": [
+                "Horror",
+                "Family Games",
+                "Movie Theme"
+            ],
+            "price": 34.99,
+            "stockQuantity": 23,
+            "dateAdded": "2024-03-02",
+            "images": {
+                "main": "horrified-main.jpg",
+                "secondary": "horrified-board.jpg",
+                "detail": "horrified-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "HOR-2024-048",
+            "specifications": {
+                "playTime": "60 min",
+                "recommendedAge": "10+",
+                "playerCount": "1-5",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "1.3 kg"
+            },
+            "relatedProducts": [
+                "BG026",
+                "BG034",
+                "BG046"
+            ]
+        },
+        {
+            "id": "BG049",
+            "name": "Dice Throne",
+            "description": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.",
+            "publisher": "Roxley Games",
+            "category": "Dice Games",
+            "subCategories": [
+                "Combat",
+                "Fantasy",
+                "Card Games"
+            ],
+            "price": 39.99,
+            "stockQuantity": 19,
+            "dateAdded": "2024-03-03",
+            "images": {
+                "main": "dice-throne-main.jpg",
+                "secondary": "dice-throne-cards.jpg",
+                "detail": "dice-throne-dice.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "DCT-2024-049",
+            "specifications": {
+                "playTime": "20-40 min",
+                "recommendedAge": "8+",
+                "playerCount": "2-6",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "25x25x7 cm",
+                "weight": "1.1 kg"
+            },
+            "relatedProducts": [
+                "BG022",
+                "BG028",
+                "BG042"
+            ]
+        },
+        {
+            "id": "BG050",
+            "name": "Sleeping Gods",
+            "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id.",
+            "publisher": "Red Raven Games",
+            "category": "Adventure",
+            "subCategories": [
+                "Exploration",
+                "Campaign",
+                "Cooperative"
+            ],
+            "price": 69.99,
+            "stockQuantity": 11,
+            "dateAdded": "2024-03-04",
+            "images": {
+                "main": "sleeping-gods-main.jpg",
+                "secondary": "sleeping-gods-book.jpg",
+                "detail": "sleeping-gods-cards.jpg"
+            },
+            "status": "in_stock",
+            "productCode": "SLG-2024-050",
+            "specifications": {
+                "playTime": "60-120 min",
+                "recommendedAge": "13+",
+                "playerCount": "1-4",
+                "language": [
+                    "English"
+                ],
+                "dimensions": "30x30x7 cm",
+                "weight": "2.4 kg"
+            },
+            "relatedProducts": [
+                "BG023",
+                "BG034",
+                "BG038"
+            ]
+        }
+    ]
+}

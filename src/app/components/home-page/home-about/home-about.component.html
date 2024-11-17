@@ -2,12 +2,16 @@
 xl:grid-cols-[340px,1fr] 2xl:grid-cols-[386px,1fr]">
     
         <img 
-            src="../../../assets/images/hex-grid.png" 
+            ngSrc="assets/images/hex-grid.png" 
             alt="home about image" 
             class="hidden object-contain mt-20 lg:block lg:w-[340px] lg:h-[380px] xl:w-[386px] xl:h-[430px] 2xl:w-[432px] 2xl:h-[480px]"
-            width="340"
-            height="380"
-            priority="true"
+            [width]="340"
+            [height]="380"
+            priority
+            sizes="(min-width: 1536px) 25vw,
+                    (min-width: 1280px) 30vw,
+                    (min-width: 1024px) 33vw,
+                    100vw"
         >
     <div>
         <h2 class="text-[28px] lg:text-[32px] xl:text-[36px] 2xl:text-[40px] font-bold text-font-main-color mb-8">Board game enthusiasts</h2>

@@ -8,6 +8,7 @@ import { OfferCategoriesComponent } from './offer-categories/offer-categories.co
 import { AdvertiserBannerComponent } from '../advertiser-banner/advertiser-banner.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
 import { HomeAddressComponent } from './home-address/home-address.component';
+import { HomeTestimonialsComponent } from './home-testimonials/home-testimonials.component';
 @Component({
   selector: 'app-home-page',
   standalone: true,
@@ -20,7 +21,8 @@ import { HomeAddressComponent } from './home-address/home-address.component';
     OfferCategoriesComponent,
     AdvertiserBannerComponent,
     HomeAboutComponent,
-    HomeAddressComponent
+    HomeAddressComponent,
+    HomeTestimonialsComponent
   ],
   templateUrl: './home-page.component.html',
   styles: ``

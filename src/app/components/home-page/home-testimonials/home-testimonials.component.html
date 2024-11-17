@@ -1,0 +1,5 @@
+<article class="w-full max-w-[1400px] mx-auto px-5 py-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+    @for (testimonial of testimonials; track testimonial.id) {
+        <app-testimonial-card [testimonial]="testimonial"></app-testimonial-card>
+    }
+</article>

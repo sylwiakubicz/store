@@ -1,10 +1,10 @@
 import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideState, provideStore } from '@ngrx/store';
-import { SearchReducer } from './states/search/search.reducers';
+import { SearchReducer } from './state/search/search.reducers';
 
 import { routes } from './app.routes';
-import { NavbarReducer } from './states/navbar/navbar.reducers';
+import { NavbarReducer } from './state/navbar/navbar.reducers';
 
 export const appConfig: ApplicationConfig = {
   providers: [

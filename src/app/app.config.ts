@@ -1,16 +1,23 @@
 import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
-import { provideState, provideStore } from '@ngrx/store';
-import { SearchReducer } from './state/search/search.reducers';
-
+import { provideStore } from '@ngrx/store';
+import { provideEffects } from '@ngrx/effects';
+import { provideHttpClient } from '@angular/common/http';
 import { routes } from './app.routes';
+import { SearchReducer } from './state/search/search.reducers';
 import { NavbarReducer } from './state/navbar/navbar.reducers';
+import { productReducer } from './state/products/product.reducer';
+import { ProductEffects } from './state/products/product.effects';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideRouter(routes), 
-    provideStore({ search: SearchReducer, navbar: NavbarReducer }), 
-    provideState({name: 'search', reducer: SearchReducer}),
-    provideState({name: 'navbar', reducer: NavbarReducer})
-  ]
+    providers: [
+        provideRouter(routes),
+        provideHttpClient(),
+        provideStore({
+            search: SearchReducer,
+            navbar: NavbarReducer,
+            products: productReducer
+        }),
+        provideEffects([ProductEffects])
+    ]
 };

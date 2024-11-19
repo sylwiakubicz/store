@@ -11,7 +11,15 @@ import { StarIconComponent } from '../../icons/star-icon/star-icon.component';
     templateUrl: './product.component.html'
 })
 export class ProductComponent {
-    @Input({ required: true }) product!: Product;
+    @Input() product!: Product;
+
+    get isAvailable(): boolean {
+        return this.product.status !== 'out_of_stock';
+    }
+
+    get imageUrl(): string {
+        return `assets/images/${this.product.images.main}`;
+    }
 
     onAddToCart(): void {
         console.log('Adding to cart:', this.product);

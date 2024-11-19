@@ -1,8 +1,12 @@
 export interface Product {
-    id: number;
+    id: string;
     name: string;
+    category: string;
     price: number;
-    imageUrl: string;
-    isAvailable: boolean;
-    category?: string;
+    images: {
+        main: string;
+        secondary: string;
+        detail: string;
+    };
+    status: 'in_stock' | 'low_stock' | 'out_of_stock';
 }

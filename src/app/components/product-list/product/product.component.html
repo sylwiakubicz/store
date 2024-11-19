@@ -5,7 +5,7 @@
     <!-- Image container -->
     <figure class="p-6 h-[248px] w-full">
         <img 
-            [ngSrc]="product.imageUrl" 
+            [ngSrc]="imageUrl" 
             [alt]="product.name"
             class="object-contain w-full h-full cursor-pointer"
             loading="lazy"
@@ -47,28 +47,28 @@
         <div 
             class="flex items-center gap-2 mb-6"
             role="status"
-            [attr.aria-label]="product.isAvailable ? 'Product in stock' : 'Product out of stock'"
+            [attr.aria-label]="isAvailable ? 'Product in stock' : 'Product out of stock'"
         >
             <span class="relative flex items-center justify-center h-2.5 w-2.5">
                 <span 
-                    [class.border-pine-green]="product.isAvailable" 
-                    [class.border-gray-400]="!product.isAvailable" 
+                    [class.border-pine-green]="isAvailable" 
+                    [class.border-gray-400]="!isAvailable" 
                     class="animate-ping absolute inline-flex w-3 h-3 rounded-full border-[2px]"
                     aria-hidden="true"
                 ></span>
                 <span 
-                    [class.bg-pine-green]="product.isAvailable" 
-                    [class.bg-gray-400]="!product.isAvailable" 
+                    [class.bg-pine-green]="isAvailable" 
+                    [class.bg-gray-400]="!isAvailable" 
                     class="w-2 h-2 rounded-full"
                     aria-hidden="true"
                 ></span>
             </span>
             <span 
                 class="text-sm font-bold" 
-                [class.text-pine-green]="product.isAvailable" 
-                [class.text-gray-400]="!product.isAvailable"
+                [class.text-pine-green]="isAvailable" 
+                [class.text-gray-400]="!isAvailable"
             >
-                {{ product.isAvailable ? 'in stock' : 'out of stock' }}
+                {{ isAvailable ? 'in stock' : 'out of stock' }}
             </span>
         </div>
 
@@ -81,7 +81,7 @@
         >
             <button 
                 class="px-8 h-[54px] font-bold bg-pine-green border-none text-sm text-font-additional-color rounded-md hover:bg-custom-blue transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                [disabled]="!product.isAvailable"
+                [disabled]="!isAvailable"
                 (click)="onAddToCart()"
                 [attr.aria-label]="'Add ' + product.name + ' to cart'"
             >
